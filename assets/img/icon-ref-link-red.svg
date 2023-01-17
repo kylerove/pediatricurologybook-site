@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="306px" height="448px" viewBox="0 0 306 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-ref-link-red</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-ref-link-red" transform="translate(0.005000, 0.000000)">
+            <path d="M31.995,448 C23.807,448 15.615,444.875 9.375,438.625 C-3.125,426.125 -3.125,405.875 9.375,393.375 L178.795,224 L9.375,54.63 C-3.125,42.13 -3.125,21.88 9.375,9.38 C21.875,-3.12 42.125,-3.12 54.625,9.38 L246.625,201.38 C259.125,213.88 259.125,234.13 246.625,246.63 L54.625,438.63 C48.395,444.9 40.195,448 31.995,448 Z" id="Path" fill="#FE423D" fill-rule="nonzero"></path>
+            <rect id="Rectangle" x="255.995" y="0" width="50" height="448"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="349px" height="812px" viewBox="0 0 349 812" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <defs>
+        <circle id="path-1" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-9" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-11" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-13" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-14">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-15" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-16">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-17" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-18">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-19" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-20">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-21" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-22">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-23" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-24">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-25" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-26">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-27" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-28">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-29" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-30">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-31" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-32">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-33" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-34">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-35" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-36">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-37" cx="7" cy="7" r="7"></circle>
+        <filter x="-14.3%" y="-14.3%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-38">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M5.8,1 L6.6,1 C9.2509668,1 11.4,3.1490332 11.4,5.8 L11.4,9 L1,9 L1,5.8 C1,3.1490332 3.1490332,1 5.8,1 Z" id="path-39"></path>
+        <filter x="-28.8%" y="-37.5%" width="157.7%" height="175.0%" filterUnits="objectBoundingBox" id="filter-40">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M6.6,17 L5.8,17 C3.1490332,17 1,14.8509668 1,12.2 L1,9 L11.4,9 L11.4,12.2 C11.4,14.8509668 9.2509668,17 6.6,17 Z" id="path-41"></path>
+        <filter x="-28.8%" y="-37.5%" width="157.7%" height="175.0%" filterUnits="objectBoundingBox" id="filter-42">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M5.8,1 L6.6,1 C9.2509668,1 11.4,3.1490332 11.4,5.8 L11.4,9 L1,9 L1,5.8 C1,3.1490332 3.1490332,1 5.8,1 Z" id="path-43"></path>
+        <filter x="-28.8%" y="-37.5%" width="157.7%" height="175.0%" filterUnits="objectBoundingBox" id="filter-44">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M6.6,17 L5.8,17 C3.1490332,17 1,14.8509668 1,12.2 L1,9 L11.4,9 L11.4,12.2 C11.4,14.8509668 9.2509668,17 6.6,17 Z" id="path-45"></path>
+        <filter x="-28.8%" y="-37.5%" width="157.7%" height="175.0%" filterUnits="objectBoundingBox" id="filter-46">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-47" x="0" y="0" width="157" height="28" rx="6"></rect>
+        <filter x="-1.6%" y="-7.1%" width="103.2%" height="117.9%" filterUnits="objectBoundingBox" id="filter-48">
+            <feMorphology radius="0.25" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0.5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="349" height="812"></rect>
+        <g id="Group" transform="translate(26.000000, 22.000000)">
+            <text id="Sex" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#000000">
+                <tspan x="0" y="12">Sex</tspan>
+            </text>
+            <text id="Male" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="12">Male</tspan>
+            </text>
+            <g id="#01-UI-Elements/#02-Selection-controls/#02-Radio-Button/Selected" transform="translate(131.000000, 1.000000)">
+                <circle id="Oval" fill="#017AFF" cx="7" cy="7" r="7"></circle>
+                <circle id="BG" fill="#FFFFFF" cx="7" cy="7" r="3"></circle>
+            </g>
+            <text id="Female" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="32">Female</tspan>
+            </text>
+            <g id="BG" transform="translate(131.000000, 21.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+        </g>
+        <g id="Group-Copy-9" transform="translate(26.000000, 667.000000)">
+            <text id="Duplication" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#000000">
+                <tspan x="0" y="12">Duplication</tspan>
+            </text>
+            <text id="No" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="12">No</tspan>
+            </text>
+            <g id="#01-UI-Elements/#02-Selection-controls/#02-Radio-Button/Selected" transform="translate(131.000000, 1.000000)">
+                <circle id="Oval" fill="#017AFF" cx="7" cy="7" r="7"></circle>
+                <circle id="BG" fill="#FFFFFF" cx="7" cy="7" r="3"></circle>
+            </g>
+            <text id="Yes" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="32">Yes</tspan>
+            </text>
+            <g id="BG" transform="translate(131.000000, 21.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+        </g>
+        <g id="Group-Copy-10" transform="translate(26.000000, 717.000000)">
+            <text id="Voiding-dysfunction" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#000000">
+                <tspan x="0" y="12">Voiding </tspan>
+                <tspan x="0" y="27">dysfunction</tspan>
+            </text>
+            <text id="No" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="12">No</tspan>
+            </text>
+            <g id="#01-UI-Elements/#02-Selection-controls/#02-Radio-Button/Selected" transform="translate(131.000000, 1.000000)">
+                <circle id="Oval" fill="#017AFF" cx="7" cy="7" r="7"></circle>
+                <circle id="BG" fill="#FFFFFF" cx="7" cy="7" r="3"></circle>
+            </g>
+            <text id="Yes" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="32">Yes</tspan>
+            </text>
+            <g id="BG" transform="translate(131.000000, 21.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+        </g>
+        <g id="Group-Copy-4" transform="translate(26.000000, 192.000000)">
+            <text id="Laterality" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#000000">
+                <tspan x="0" y="12">Laterality</tspan>
+            </text>
+            <text id="Unilateral" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="12">Unilateral</tspan>
+            </text>
+            <g id="#01-UI-Elements/#02-Selection-controls/#02-Radio-Button/Selected" transform="translate(131.000000, 1.000000)">
+                <circle id="Oval" fill="#017AFF" cx="7" cy="7" r="7"></circle>
+                <circle id="BG" fill="#FFFFFF" cx="7" cy="7" r="3"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 21.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <text id="Bilateral" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="32">Bilateral</tspan>
+            </text>
+        </g>
+        <g id="Group-Copy" transform="translate(26.000000, 72.000000)">
+            <text id="Presentation" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#000000">
+                <tspan x="0" y="12">Presentation</tspan>
+            </text>
+            <text id="Febrile-UTI" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="12">Febrile UTI</tspan>
+            </text>
+            <text id="Afebrile-UTI" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="32">Afebrile UTI</tspan>
+            </text>
+            <g id="#01-UI-Elements/#02-Selection-controls/#02-Radio-Button/Selected" transform="translate(131.000000, 1.000000)">
+                <circle id="Oval" fill="#017AFF" cx="7" cy="7" r="7"></circle>
+                <circle id="BG" fill="#FFFFFF" cx="7" cy="7" r="3"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 21.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 41.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 61.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <text id="Antenatal-hydro" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="52">Antenatal hydro</tspan>
+            </text>
+            <text id="Other" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="72">Other</tspan>
+            </text>
+        </g>
+        <g id="Group-Copy-6" transform="translate(26.000000, 416.000000)">
+            <text id="When-reflux-started" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#000000">
+                <tspan x="0" y="12">When reflux </tspan>
+                <tspan x="0" y="27">started on right</tspan>
+            </text>
+            <text id="None" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="12">None</tspan>
+            </text>
+            <text id="Filling" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="32">Filling</tspan>
+            </text>
+            <g id="#01-UI-Elements/#02-Selection-controls/#02-Radio-Button/Selected" transform="translate(131.000000, 1.000000)">
+                <circle id="Oval" fill="#017AFF" cx="7" cy="7" r="7"></circle>
+                <circle id="BG" fill="#FFFFFF" cx="7" cy="7" r="3"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 21.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 41.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <text id="Voiding" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="52">Voiding</tspan>
+            </text>
+        </g>
+        <g id="Group-Copy-7" transform="translate(26.000000, 597.000000)">
+            <text id="When-reflux-started" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#000000">
+                <tspan x="0" y="12">When reflux </tspan>
+                <tspan x="0" y="27">started on left</tspan>
+            </text>
+            <text id="None" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="12">None</tspan>
+            </text>
+            <text id="Filling" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="32">Filling</tspan>
+            </text>
+            <g id="#01-UI-Elements/#02-Selection-controls/#02-Radio-Button/Selected" transform="translate(131.000000, 1.000000)">
+                <circle id="Oval" fill="#017AFF" cx="7" cy="7" r="7"></circle>
+                <circle id="BG" fill="#FFFFFF" cx="7" cy="7" r="3"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 21.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 41.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-21"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <text id="Voiding" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="52">Voiding</tspan>
+            </text>
+        </g>
+        <g id="Group-Copy-5" transform="translate(26.000000, 305.000000)">
+            <text id="Right-reflux-grade" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#000000">
+                <tspan x="0" y="12">Right reflux grade </tspan>
+            </text>
+            <text id="None" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="12">None</tspan>
+            </text>
+            <text id="1" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="32">1</tspan>
+            </text>
+            <g id="#01-UI-Elements/#02-Selection-controls/#02-Radio-Button/Selected" transform="translate(131.000000, 1.000000)">
+                <circle id="Oval" fill="#017AFF" cx="7" cy="7" r="7"></circle>
+                <circle id="BG" fill="#FFFFFF" cx="7" cy="7" r="3"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 21.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-23"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-24)" xlink:href="#path-23"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 41.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-25"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-26)" xlink:href="#path-25"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 61.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-27"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-28)" xlink:href="#path-27"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 82.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-29"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-30)" xlink:href="#path-29"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <text id="2" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="52">2</tspan>
+            </text>
+            <text id="3" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="72">3</tspan>
+            </text>
+            <text id="4-or-5" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="93">4 or 5</tspan>
+            </text>
+        </g>
+        <g id="Group-Copy-8" transform="translate(26.000000, 486.000000)">
+            <text id="Left-reflux-grade" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#000000">
+                <tspan x="0" y="12">Left reflux grade </tspan>
+            </text>
+            <text id="None" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="12">None</tspan>
+            </text>
+            <text id="1" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="32">1</tspan>
+            </text>
+            <g id="#01-UI-Elements/#02-Selection-controls/#02-Radio-Button/Selected" transform="translate(131.000000, 1.000000)">
+                <circle id="Oval" fill="#017AFF" cx="7" cy="7" r="7"></circle>
+                <circle id="BG" fill="#FFFFFF" cx="7" cy="7" r="3"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 21.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-31"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-32)" xlink:href="#path-31"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 41.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-33"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-34)" xlink:href="#path-33"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 61.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-35"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-36)" xlink:href="#path-35"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <g id="BG" transform="translate(131.000000, 82.000000)">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-37"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-38)" xlink:href="#path-37"></use>
+                <circle stroke="#BFBFBF" stroke-width="0.5" stroke-linejoin="square" cx="7" cy="7" r="6.75"></circle>
+            </g>
+            <text id="2" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="52">2</tspan>
+            </text>
+            <text id="3" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="72">3</tspan>
+            </text>
+            <text id="4-or-5" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="150" y="93">4 or 5</tspan>
+            </text>
+        </g>
+        <g id="Group-Copy-2" transform="translate(26.000000, 162.000000)" fill="#000000" font-size="12">
+            <text id="Age" font-family="Montserrat-SemiBold, Montserrat" font-weight="500">
+                <tspan x="0" y="12">Age</tspan>
+            </text>
+            <text id="years-(0–11)" font-family="Montserrat-Medium, Montserrat" font-weight="400">
+                <tspan x="232" y="12">years (0–11)</tspan>
+            </text>
+        </g>
+        <g id="Group-Copy-3" transform="translate(26.000000, 242.000000)">
+            <text id="Volume-reflux-starte" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#000000">
+                <tspan x="0" y="15">Volume reflux </tspan>
+                <tspan x="0" y="30">started as % of </tspan>
+                <tspan x="0" y="45">EBC</tspan>
+            </text>
+            <text id="%" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="232" y="15">%</tspan>
+            </text>
+            <g id="Group-2" transform="translate(132.000000, 0.000000)">
+                <g id="#01-UI-Elements/#05-Fields/#01-Search-Fields/Pop-Up-Buttons-Copy">
+                    <rect id="BG" fill="#FFFFFF" x="0" y="0" width="95" height="20" rx="4"></rect>
+                    <rect id="Border" stroke="#D1D1D1" style="mix-blend-mode: luminosity;" x="0" y="0" width="95" height="20" rx="4"></rect>
+                    <text id="Text:" font-family="Montserrat-Medium, Montserrat" font-size="13" font-weight="400" line-spacing="16" fill="#232526">
+                        <tspan x="6" y="15">3</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(80.503984, 1.032636)">
+                    <g id="BG">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-40)" xlink:href="#path-39"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-39"></use>
+                    </g>
+                    <g id="BG">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-42)" xlink:href="#path-41"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-41"></use>
+                    </g>
+                    <text id="Text:" font-family="SFProDisplay-Bold, SF Pro Display" font-size="6" font-weight="bold" line-spacing="8" fill="#BEBEBE">
+                        <tspan x="2.56535196" y="6">􀆇</tspan>
+                        <tspan x="2.56535196" y="14">􀆈</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="[validated-range:-7." font-family="Montserrat-LightItalic, Montserrat" font-size="9" font-style="italic" font-weight="300" fill="#000000">
+                <tspan x="133" y="31">[validated range: 7.3–202.3%]</tspan>
+            </text>
+        </g>
+        <g id="#01-UI-Elements/#05-Fields/#01-Search-Fields/Pop-Up-Buttons" transform="translate(158.000000, 160.000000)">
+            <rect id="BG" fill="#FFFFFF" x="0" y="0" width="95" height="20" rx="4"></rect>
+            <rect id="Border" stroke="#D1D1D1" style="mix-blend-mode: luminosity;" x="0" y="0" width="95" height="20" rx="4"></rect>
+            <text id="Text:" font-family="Montserrat-Medium, Montserrat" font-size="13" font-weight="400" line-spacing="16" fill="#232526">
+                <tspan x="6" y="15">3</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(238.503984, 161.032636)">
+            <g id="BG">
+                <use fill="black" fill-opacity="1" filter="url(#filter-44)" xlink:href="#path-43"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-43"></use>
+            </g>
+            <g id="BG">
+                <use fill="black" fill-opacity="1" filter="url(#filter-46)" xlink:href="#path-45"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-45"></use>
+            </g>
+            <text id="Text:" font-family="SFProDisplay-Bold, SF Pro Display" font-size="6" font-weight="bold" line-spacing="8" fill="#BEBEBE">
+                <tspan x="2.56535196" y="6">􀆇</tspan>
+                <tspan x="2.56535196" y="14">􀆈</tspan>
+            </text>
+        </g>
+        <rect id="Rectangle" stroke="#979797" stroke-width="2" x="15" y="12" width="318" height="751"></rect>
+        <line x1="150.5" y1="12.5" x2="150.5" y2="762.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="15.5" y1="709.5" x2="333.5" y2="709.5" id="Line-2" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="15.5" y1="659.5" x2="333.5" y2="659.5" id="Line-2-Copy" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="15.5" y1="589.5" x2="333.5" y2="589.5" id="Line-2-Copy-2" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="15.5" y1="478.5" x2="333.5" y2="478.5" id="Line-2-Copy-3" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="15.5" y1="408.5" x2="333.5" y2="408.5" id="Line-2-Copy-9" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="15.5" y1="297.5" x2="333.5" y2="297.5" id="Line-2-Copy-4" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="15.5" y1="234.5" x2="333.5" y2="234.5" id="Line-2-Copy-5" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="15.5" y1="154.5" x2="333.5" y2="154.5" id="Line-2-Copy-6" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="15.5" y1="187.5" x2="333.5" y2="187.5" id="Line-2-Copy-7" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="15.5" y1="64.5" x2="333.5" y2="64.5" id="Line-2-Copy-8" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <g id="#01-UI-Elements/#01-Buttons/#01-Large-Button/#02-Secondary" transform="translate(96.000000, 774.000000)">
+            <g id="Shadow">
+                <use fill="black" fill-opacity="1" filter="url(#filter-48)" xlink:href="#path-47"></use>
+                <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-47"></use>
+            </g>
+            <rect id="BG" fill="#FFFFFF" x="0" y="0" width="157" height="28" rx="6"></rect>
+            <text id="Button-text:" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" line-spacing="16" fill="#232526">
+                <tspan x="53.7155" y="19">Predict</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

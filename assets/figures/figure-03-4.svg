@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="403px" height="291px" viewBox="0 0 403 291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="403" height="291"></rect>
+        <path d="M65,275 L382.233821,275 L223.61691,23 C117.872303,191 65,275 65,275 Z" id="Path" stroke="#6EA29C" stroke-width="3" fill="#76CFC2"></path>
+        <path d="M52.4570312,274.671875 L58.5703125,274.671875 L58.5703125,27.9335938 C62.921875,27.9335938 65.0976562,27.9335938 65.0976562,27.9335938 L55.4804688,18.3164062 L45.8632812,27.9335938 L52.4570312,27.9335938 L52.4570312,274.671875 Z" id="Path-2" stroke="#6EA29C" stroke-width="3" fill="#76CFC2"></path>
+        <text id="Worsening-function" transform="translate(36.000000, 132.500000) rotate(-90.000000) translate(-36.000000, -132.500000) " font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#000000">
+            <tspan x="-37.904" y="139">Worsening function</tspan>
+        </text>
+        <line x1="180.5" y1="90.5" x2="266.5" y2="90.5" id="Line" stroke="#6EA29C" stroke-width="3" fill="#76CFC2"></line>
+        <line x1="150.5" y1="137.5" x2="296.5" y2="137.5" id="Line-Copy" stroke="#6EA29C" stroke-width="3" fill="#76CFC2"></line>
+        <line x1="122.5" y1="183.5" x2="324.5" y2="183.5" id="Line-Copy-2" stroke="#6EA29C" stroke-width="3" fill="#76CFC2"></line>
+        <line x1="92.5" y1="230.5" x2="354.5" y2="230.5" id="Line-Copy-3" stroke="#6EA29C" stroke-width="3" fill="#76CFC2"></line>
+        <text id="Stage-V-/-ESRD-&lt;-15" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="179.87" y="68">Stage V / ESRD</tspan>
+            <tspan x="176.799" y="83" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal">&lt; 15 mL/min/1.73 m</tspan>
+            <tspan x="267.309" y="83" font-family="HelveticaNeue, Helvetica Neue" font-size="7" font-weight="normal">2</tspan>
+        </text>
+        <text id="Stage-IV-15–29-mL/mi" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="200.222" y="113.25">Stage IV</tspan>
+            <tspan x="173.129" y="128.25" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal">15–29 mL/min/1.73 m</tspan>
+            <tspan x="270.979" y="128.25" font-family="HelveticaNeue, Helvetica Neue" font-size="7" font-weight="normal">2</tspan>
+        </text>
+        <text id="Stage-III-30–59-mL/m" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="200.462" y="158.5">Stage III</tspan>
+            <tspan x="173.129" y="173.5" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal">30–59 mL/min/1.73 m</tspan>
+            <tspan x="270.979" y="173.5" font-family="HelveticaNeue, Helvetica Neue" font-size="7" font-weight="normal">2</tspan>
+        </text>
+        <text id="Stage-II-60–89-mL/mi" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="202.232" y="203.75">Stage II</tspan>
+            <tspan x="173.129" y="218.75" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal">60–89 mL/min/1.73 m</tspan>
+            <tspan x="270.979" y="218.75" font-family="HelveticaNeue, Helvetica Neue" font-size="7" font-weight="normal">2</tspan>
+        </text>
+        <text id="Stage-I-≥-90-mL/min/" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="204.002" y="249">Stage I</tspan>
+            <tspan x="176.799" y="264" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal">≥ 90 mL/min/1.73 m</tspan>
+            <tspan x="267.309" y="264" font-family="HelveticaNeue, Helvetica Neue" font-size="7" font-weight="normal">2</tspan>
+        </text>
+    </g>
+</svg>
