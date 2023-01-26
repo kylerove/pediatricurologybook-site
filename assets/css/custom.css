@@ -998,3 +998,7 @@ ol ol ol {
 ol ol ol ol {
   list-style-type: lower-greek;
 }
+
+.social-icons li:hover.social-icons-mastodon a {
+  background: #ff8201 !important;
+}
