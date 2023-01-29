@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640px" height="338px" viewBox="0 0 640 338" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <title>Figure</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M381.1441,69.2061 C427.0979,115.2115 427.0979,189.8009 381.1441,235.8063 C335.1903,281.8117 260.6845,281.8117 214.7307,235.8063 C168.7769,189.8009 168.7769,115.2115 214.7307,69.2061 C260.6845,23.2007 335.1903,23.2007 381.1441,69.2061 Z" id="Fill-4" fill="#00A2FF"></path>
+        <path d="M455.5773,196.3529 C485.3054,226.1144 485.3054,274.3671 455.5773,304.1286 C425.8493,333.89 377.6506,333.89 347.9225,304.1286 C318.1945,274.3671 318.1945,226.1144 347.9225,196.3529 C377.6506,166.5915 425.8493,166.5915 455.5773,196.3529 Z" id="Fill-5" fill="#FF2C4F"></path>
+        <text id="DEVELOPMENT" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="140.7859" y="22.8966267">DEVE</tspan>
+            <tspan x="177.79201" y="22.8966267" letter-spacing="-0.4158">L</tspan>
+            <tspan x="185.604415" y="22.8966267">OPMENT</tspan>
+        </text>
+        <text id="IMPLEMENTATION" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="74.7817" y="50.0990267">IMPLEMEN</tspan>
+            <tspan x="149.79296" y="50.0990267" letter-spacing="-0.8316">TA</tspan>
+            <tspan x="163.559379" y="50.0990267">TION</tspan>
+        </text>
+        <text id="SUPPORT" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="114.2647" y="77.3015267">SUPPO</tspan>
+            <tspan x="162.8569" y="77.3015267" letter-spacing="-0.16632">R</tspan>
+            <tspan x="172.458972" y="77.3015267">T</tspan>
+        </text>
+        <text id="CLINICAL" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="102.52" y="104.503927">CLINI</tspan>
+            <tspan x="139.498359" y="104.503927" letter-spacing="-0.16632">C</tspan>
+            <tspan x="149.613826" y="104.503927">AL</tspan>
+        </text>
+        <text id="INTERFACE" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="83.3351" y="131.706427">INTER</tspan>
+            <tspan x="125.197655" y="131.706427" letter-spacing="-0.74844">F</tspan>
+            <tspan x="131.914264" y="131.706427" letter-spacing="-0.24948">A</tspan>
+            <tspan x="141.169541" y="131.706427">CE</tspan>
+        </text>
+        <text id="INTEGRATION" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="62.1115" y="158.908827">INTEGR</tspan>
+            <tspan x="114.505602" y="158.908827" letter-spacing="-0.8316">A</tspan>
+            <tspan x="121.902208" y="158.908827">TION</tspan>
+        </text>
+        <text id="WORKFLOW" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" letter-spacing="-0.16632" fill="#525252">
+            <tspan x="78.4328" y="186.111327">W</tspan>
+            <tspan x="91.3650056" y="186.111327">ORKF</tspan>
+            <tspan x="130.424698" y="186.111327" letter-spacing="-0.4158">L</tspan>
+            <tspan x="138.237103" y="186.111327">OW</tspan>
+        </text>
+        <text id="DESIGN" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="121.4112" y="213.313727">DESIGN</tspan>
+        </text>
+        <text id="PROJECT" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="22.81871" y="241.517827">PR</tspan>
+            <tspan x="42.0918584" y="241.517827" letter-spacing="-0.49896">O</tspan>
+            <tspan x="52.3880816" y="241.517827">JE</tspan>
+            <tspan x="69.094252" y="241.517827" letter-spacing="-0.08316">C</tspan>
+            <tspan x="79.2928796" y="241.517827">T</tspan>
+        </text>
+        <text id="MANAGEMENT" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="89.86646" y="241.517827">MAN</tspan>
+            <tspan x="122.238134" y="241.517827" letter-spacing="-0.24948">A</tspan>
+            <tspan x="131.49341" y="241.517827">GEMENT</tspan>
+        </text>
+        <text id="DECISION" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="491.2812" y="230.643127">DECISION</tspan>
+        </text>
+        <text id="SUPPORT" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="564.15015" y="230.643127">SUPPO</tspan>
+            <tspan x="612.74235" y="230.643127" letter-spacing="-0.16632">R</tspan>
+            <tspan x="622.344422" y="230.643127">T</tspan>
+        </text>
+        <text id="ANALYSIS" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="491.2812" y="254.706527">ANA</tspan>
+            <tspan x="520.5725" y="254.706527" letter-spacing="-1.06722">L</tspan>
+            <tspan x="526.193299" y="254.706527">YSIS</tspan>
+        </text>
+        <text id="DATA" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" letter-spacing="-0.024" fill="#525252">
+            <tspan x="487.4312" y="285.541027">D</tspan>
+            <tspan x="497.688988" y="285.541027" letter-spacing="-0.52296">AT</tspan>
+            <tspan x="512.072687" y="285.541027">A</tspan>
+        </text>
+        <text id="REPORTING" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13.8755568" font-weight="bold" fill="#525252">
+            <tspan x="480.2812" y="311.970727">REPO</tspan>
+            <tspan x="519.340892" y="311.970727" letter-spacing="-0.16632">R</tspan>
+            <tspan x="528.942964" y="311.970727">TING</tspan>
+        </text>
+        <text id="Clinical-Informatics" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="26.429632" font-weight="bold" fill="#FFFFFF">
+            <tspan x="251.500537" y="132.5062">Clinical</tspan>
+            <tspan x="226.418668" y="164.5062">Inform</tspan>
+            <tspan x="309.064127" y="164.5062" letter-spacing="-0.264">a</tspan>
+            <tspan x="323.970736" y="164.5062">tics</tspan>
+        </text>
+        <text id="Analytics" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="26.429632" font-weight="bold" fill="#FFFFFF">
+            <tspan x="344.249938" y="259.74075">Analytics</tspan>
+        </text>
+        <polyline id="Stroke-6" stroke="#00A2FF" stroke-width="4" points="260.062625 45.7617056 246.110679 27.5096 141.704 27.5096"></polyline>
+        <polyline id="Stroke-7" stroke="#00A2FF" stroke-width="4" points="219.250882 72.0766688 201.010669 54.5494 75.4467 54.5494"></polyline>
+        <polyline id="Stroke-8" stroke="#00A2FF" stroke-width="4" points="201.098737 98.0375382 177.635655 81.2265 115.0467 81.2265"></polyline>
+        <polyline id="Stroke-9" stroke="#00A2FF" stroke-width="4" points="194.43554 122.817643 166.172855 108.7812 103.9964 108.7812"></polyline>
+        <polyline id="Stroke-10" stroke="#00A2FF" stroke-width="4" points="195.703622 146.527776 160.050299 136.4575 83.8639 136.4575"></polyline>
+        <polyline id="Stroke-11" stroke="#00A2FF" stroke-width="4" points="194.985446 158.079 156.953813 164.06162 63.1047 164.06162"></polyline>
+        <polyline id="Stroke-12" stroke="#00A2FF" stroke-width="4" points="203.74321 181.3202 166.502174 190.515395 78.6181 190.515395"></polyline>
+        <polyline id="Stroke-13" stroke="#00A2FF" stroke-width="4" points="209.87142 204.5888 174.09348 217.601751 121.9284 217.601751"></polyline>
+        <polyline id="Stroke-14" stroke="#00A2FF" stroke-width="4" points="227.851663 223.2162 194.855911 244.912132 23.25389 245.60247"></polyline>
+        <polyline id="Stroke-15" stroke="#FF2C4F" stroke-width="4" points="628.261763 234.8514 493.060593 234.8514 462.1047 241.037243"></polyline>
+        <polyline id="Stroke-16" stroke="#FF2C4F" stroke-width="4" points="558.03926 260.502276 493.060672 260.502276 460.154 256.1157"></polyline>
+        <polyline id="Stroke-17" stroke="#FF2C4F" stroke-width="4" points="525.393201 291.533792 484.810663 291.533792 450.862 274.8323"></polyline>
+        <polyline id="Stroke-18" stroke="#FF2C4F" stroke-width="4" points="560.526703 318.152476 480.410635 317.465194 449.8565 297.0793"></polyline>
+    </g>
+</svg>

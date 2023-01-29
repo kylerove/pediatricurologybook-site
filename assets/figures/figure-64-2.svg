@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="539px" height="525px" viewBox="0 0 539 525" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <defs>
+        <circle id="path-1" cx="272" cy="184" r="173"></circle>
+        <circle id="path-2" cx="183" cy="335" r="173"></circle>
+        <circle id="path-3" cx="352" cy="335" r="173"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M272,11 C367.545262,11 445,88.4547383 445,184 C445,185.690313 444.975758,187.374964 444.927603,189.053624 C493.071184,219.768111 525,273.655368 525,335 C525,430.545262 447.545262,508 352,508 C321.310911,508 292.488206,500.009064 267.499087,485.994394 C242.512566,500.00885 213.6895,508 183,508 C87.4547383,508 10,430.545262 10,335 C10,269.93844 45.9152281,213.265331 99.0013214,183.725035 C99.1483745,88.3064514 176.546243,11 272,11 Z" id="Combined-Shape" fill-opacity="0.75" fill="#FFFFFF"></path>
+        <g id="Oval" stroke="#FF2C4F">
+            <use stroke-width="1" fill-opacity="0.35" fill="#FF2C4F" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <circle stroke-width="4" cx="272" cy="184" r="175"></circle>
+        </g>
+        <g id="Oval-Copy" stroke="#00A2FF">
+            <use stroke-width="1" fill-opacity="0.35" fill="#00A2FF" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <circle stroke-width="4" cx="183" cy="335" r="175"></circle>
+        </g>
+        <g id="Oval-Copy-2" stroke="#11E36B">
+            <use stroke-width="1" fill-opacity="0.35" fill="#11E36B" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <circle stroke-width="4" cx="352" cy="335" r="175"></circle>
+        </g>
+        <text id="Clinical-Care" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" letter-spacing="0.00144444417" fill="#000000">
+            <tspan x="215.700611" y="126">Clinical Care</tspan>
+        </text>
+        <text id="Health-Care-System" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" letter-spacing="0.00144444417" fill="#000000">
+            <tspan x="46.2120556" y="352">Health Care</tspan>
+            <tspan x="65.4656667" y="375">System</tspan>
+        </text>
+        <text id="Clinical-Informatics" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="20" font-weight="bold" letter-spacing="0.00144444417" fill="#000000">
+            <tspan x="236.854222" y="281">Clinical</tspan>
+            <tspan x="217.772056" y="305">Informatics</tspan>
+        </text>
+        <text id="Quality-Improvement" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="14" font-weight="300" letter-spacing="0.00101111092" fill="#000000">
+            <tspan x="145.514461" y="199">Quality</tspan>
+            <tspan x="120.227428" y="216">Improvement &amp;</tspan>
+            <tspan x="147.194967" y="233">Safety</tspan>
+        </text>
+        <text id="Help-Desk" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="14" font-weight="300" letter-spacing="0.00101111092" fill="#000000">
+            <tspan x="369.623978" y="208">Help</tspan>
+            <tspan x="368.202978" y="225">Desk</tspan>
+        </text>
+        <text id="CIO-/-CMIO-IT" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="14" font-weight="300" letter-spacing="0.00101111092" fill="#000000">
+            <tspan x="236.686944" y="407">CIO / CMIO</tspan>
+            <tspan x="266.552989" y="424">IT</tspan>
+        </text>
+        <text id="Information-&amp;-Commun" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" letter-spacing="0.00144444417" fill="#000000">
+            <tspan x="379.160611" y="357">Information &amp;</tspan>
+            <tspan x="363.219889" y="380">Communications</tspan>
+            <tspan x="388.062778" y="403">Technology</tspan>
+        </text>
+    </g>
+</svg>
