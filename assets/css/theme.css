@@ -79,7 +79,7 @@ pre {
 }
 
 .remove-envato-frame:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	content: "\f00d" !important;
 	font-weight: 900;
 	display: inline-block;
@@ -1515,7 +1515,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown .dropdown-menu li.dropdown-submenu > a:after {
-		font-family: 'Font Awesome 5 Free';
+		font-family: 'Font Awesome 6 Pro';
 		content: "\f054";
 		font-weight: 900;
 		position: absolute;
@@ -2392,7 +2392,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav.header-nav-links-side-header nav > ul > li.dropdown > .dropdown-item:before {
-		font-family: 'Font Awesome 5 Free';
+		font-family: 'Font Awesome 6 Pro';
 		content: "\f054" !important;
 		font-weight: 900;
 		position: absolute;
@@ -2438,7 +2438,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 @media (min-width: 992px) {
 	#header .header-nav-main-arrows nav > ul > li > a.dropdown-toggle:after {
 		display: inline-block;
-		font-family: 'Font Awesome 5 Free';
+		font-family: 'Font Awesome 6 Pro';
 		content: "\f078";
 		font-weight: 900;
 		border: 0;
@@ -2794,7 +2794,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		html.side-header #header.side-header .header-nav.header-nav-links-vertical-slide nav ul > li.dropdown .dropdown-menu li.dropdown-submenu > a.dropdown-item:after,
 		html.side-header-hamburguer-sidebar #header.side-header .header-nav.header-nav-links-vertical-slide nav ul > li.dropdown > a.dropdown-toggle:after,
 		html.side-header-hamburguer-sidebar #header.side-header .header-nav.header-nav-links-vertical-slide nav ul > li.dropdown .dropdown-menu li.dropdown-submenu > a.dropdown-item:after {
-		font-family: 'Font Awesome 5 Free';
+		font-family: 'Font Awesome 6 Pro';
 		content: "\f054";
 		font-weight: 900;
 		position: relative;
@@ -2864,7 +2864,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 
 	html.side-header #header.side-header .header-nav.header-nav-links-vertical-slide nav ul li.back-button > a:before,
 		html.side-header-hamburguer-sidebar #header.side-header .header-nav.header-nav-links-vertical-slide nav ul li.back-button > a:before {
-		font-family: 'Font Awesome 5 Free';
+		font-family: 'Font Awesome 6 Pro';
 		content: "\f053";
 		font-weight: 900;
 		position: relative;

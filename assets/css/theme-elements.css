@@ -1693,7 +1693,7 @@ Theme Version:	8.3.0
 .breadcrumb > li + li:before {
 	color: inherit;
 	opacity: 0.5;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: 900;
 	content: "\f105";
 	padding: 0 7px 0 5px;
@@ -3087,7 +3087,7 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 }
 
 .owl-carousel .owl-nav button.owl-prev:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: 900;
 	font-size: 8px;
 	font-size: 0.5rem;
@@ -3102,7 +3102,7 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 }
 
 .owl-carousel .owl-nav button.owl-next:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: 900;
 	font-size: 8px;
 	font-size: 0.5rem;
@@ -4699,7 +4699,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 	right: 17.6px;
 	right: 1.1rem;
 	top: 50%;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: bold;
 	transform: translate3d(0, -50%, 0);
 	border: 0;
@@ -6816,7 +6816,7 @@ select.form-control-sm, select.form-control-lg {
 
 .custom-select-1:before {
 	content: '\f107';
-	font-family: "Font Awesome 5 Free";
+	font-family: "Font Awesome 6 Pro";
 	position: absolute;
 	display: block;
 	top: 53.5%;
@@ -6887,7 +6887,7 @@ select.form-control-sm, select.form-control-lg {
 .custom-checkbox-1 input[type="checkbox"]:checked + label:after {
 	position: absolute;
 	display: inline-block;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	content: '\F00C';
 	top: 50%;
 	left: 4px;
@@ -8024,7 +8024,7 @@ i.pi {
 
 i.pi.pi-porto-brand:before {
 	content: '\f111';
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: bold;
 	font-size: 0.51em;
 	color: #FFF;
@@ -8279,7 +8279,7 @@ i.pi.pi-close:after {
 
 .img-thumbnail.img-thumbnail-hover-icon:after {
 	transition: all 0.2s;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: 900;
 	color: #FFF;
 	content: "\f067";
@@ -8520,7 +8520,7 @@ button.mfp-arrow:before {
 
 button.mfp-arrow:after {
 	content: "\f053";
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: 900;
 	border: none !important;
 }
@@ -11608,7 +11608,7 @@ ul.nav-list li a {
 }
 
 ul.nav-list li a:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	content: "\f054";
 	font-weight: 900;
 	position: absolute;
@@ -13765,7 +13765,7 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 }
 
 .tparrows.tparrows-carousel.tp-leftarrow:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: 900;
 	content: "\f053";
 	position: relative;
@@ -13780,7 +13780,7 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 }
 
 .tparrows.tparrows-carousel.tp-rightarrow:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: 900;
 	content: "\f054";
 	position: relative;
@@ -14928,7 +14928,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 }
 
 .tabs-navigation .nav-tabs > li .nav-link:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: 900;
 	font-size: 10px;
 	content: "\f054";
@@ -16655,7 +16655,7 @@ section.timeline .timeline-box .owl-carousel {
 	right: auto;
 	margin-top: 0;
 	top: 12px;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Pro';
 	font-weight: 900;
 	content: "\f067";
 	z-index: 2;

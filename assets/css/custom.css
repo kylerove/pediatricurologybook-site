@@ -578,7 +578,7 @@ color: #2F68AD;
 
 #content > #translator-p:after {
     content: "\f558";  /* this is your text. You can also use UTF-8 character codes as I do here */
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Pro";
     font-size:7em;
     opacity:0.2;
     position:absolute;
@@ -607,7 +607,7 @@ color: #2F68AD;
 
 #translation-head a::before {
     content: "\f57d  ";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Pro";
     font-style:normal;
 }
 
@@ -815,7 +815,7 @@ p.p-video-number {
 .bibliography li {
   padding-bottom: 6px;
   list-style-position: inherit;
-  padding-right: 70px;
+  padding-right: 95px;
   position: relative;
 }
 
@@ -834,6 +834,7 @@ p.p-video-number {
 
 .bibliography li a[data-link="1"] {
   right:50px;
+  font-size: 1.2em;
 }
 
 .bibliography li a[data-doi="1"] {
@@ -973,6 +974,14 @@ p.drop-caps:first-letter {
 
 div.chapter-02-13 table:first-of-type th {
   width: 50%;
+}
+
+div.chapter-11-64 table:nth-child(1) th:first-of-type {
+  width: 33%;
+}
+
+div.chapter-11-64 table:nth-child(2) th:first-of-type {
+  width: 25%;
 }
 
 div#toc, div.site-map {
