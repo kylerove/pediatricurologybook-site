@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="543px" height="262px" viewBox="0 0 543 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>figure-68-1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy-5" fill="#FFFFFF" x="281" y="0" width="262" height="262" rx="8"></rect>
+        <rect id="Rectangle-Copy-4" fill="#FFFFFF" x="0" y="0" width="262" height="262" rx="8"></rect>
+        <rect id="Rectangle" stroke="#FF6500" stroke-width="4" fill-opacity="0.25" fill="#FF6500" x="2" y="2" width="258" height="258" rx="8"></rect>
+        <rect id="Rectangle-Copy" stroke="#FF2C4F" stroke-width="4" fill-opacity="0.25" fill="#FF2C4F" x="283" y="2" width="258" height="258" rx="8"></rect>
+        <rect id="Rectangle-Copy-2" stroke="#00A2FF" stroke-width="4" fill-opacity="0.25" fill="#00A2FF" x="295" y="63" width="234" height="184" rx="8"></rect>
+        <rect id="Rectangle-Copy-3" stroke="#AC4DFF" stroke-width="4" fill-opacity="0.25" fill="#AC4DFF" x="308" y="133" width="209" height="101" rx="8"></rect>
+        <text id="Function" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="48" font-weight="bold" fill="#FF6500">
+            <tspan x="30" y="144">Function</tspan>
+        </text>
+        <text id="Quality-of-Life" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="36" font-weight="bold" fill="#FF2C4F">
+            <tspan x="293" y="45">Quality of Life</tspan>
+        </text>
+        <text id="Health-Related-Quali" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="24" font-weight="bold" fill="#00A2FF">
+            <tspan x="326.032" y="92">Health-Related</tspan>
+            <tspan x="332.92" y="120">Quality of Life</tspan>
+        </text>
+        <text id="Disease-Specific-Hea" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="20" font-weight="bold" fill="#AC4DFF">
+            <tspan x="331.47" y="168">Disease-Specific</tspan>
+            <tspan x="340.36" y="192">Health-Related</tspan>
+            <tspan x="346.1" y="216">Quality of Life</tspan>
+        </text>
+    </g>
+</svg>
