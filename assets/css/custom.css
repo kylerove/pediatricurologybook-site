@@ -209,7 +209,36 @@ header,#header .header-body {
 #footer .footer-copyright.footer-copyright-style-2 {
   border-top:0;
   }
-  
+
+aside.sidebar ul.prior-version-links {
+  list-style: none;
+  padding: 0;
+}
+
+aside.sidebar ul.prior-version-links li {
+  display: block;
+  margin-bottom: 4px;
+}
+
+aside.sidebar ul.prior-version-links li a {
+  display: inline;
+  text-decoration: none;
+  padding: 0.1em 1.2em 0.1em 0.2em;
+  background: url("/assets/img/prior-version-link-blue.svg") right center no-repeat;
+  background-size: 1em auto;
+  border-right: 2px solid transparent;
+}
+
+aside.sidebar ul.prior-version-links li a:hover {
+  color:#fff;
+  background-color: #006BB2 !important;
+  text-decoration: none;
+  border-radius:2px;
+  border-right: 2px solid #006BB2;
+  background: url("/assets/img/prior-version-link-white.svg") right center no-repeat;
+  background-size: 1em auto;
+}
+
 hr {
   border: 0;
   height: 1px;
@@ -383,6 +412,17 @@ aside ul.nav-list li:last-child a {
 .img-rounded {
   border-radius: 6px;
   }
+
+ul.contributors > li {
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 10px;
+  }
+
+ul.contributors > li:hover {
+  background-color: #f6f6f6;
+  border: 1px solid #e1e1e1;
+}
 
 div.editors ul.thumb-info-social-icons li, div.contributors ul.thumb-info-social-icons li {
   display: inline-block;
@@ -863,6 +903,12 @@ p.p-video-number {
   font-size: 1.5em;
   font-weight: bold;
 }
+
+@media (max-width: 575.98px) { 
+  .author-name a {
+    font-size: 1.25em;
+  }
+ }
 
 div.attribution ul.thumb-info-social-icons {
   margin: 0;
