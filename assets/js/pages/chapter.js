@@ -124,7 +124,7 @@ var Chapter = function() {
                nextUntil(':not(table)').
                addBack().
                wrapAll('<div class="d-flex table-box" />').
-               wrapAll('<div class="table-wrapper" />');
+               wrapAll('<div class="table-wrapper table-responsive" />');
            // match caption and table width
            if (tableCaptionWidth > tableWidth) {
              tableCaption.width(tableWidth);
