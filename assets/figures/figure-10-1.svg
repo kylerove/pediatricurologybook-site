@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="414px" height="160px" viewBox="0 0 414 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <g id="Page-1-light-bg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="9" y1="29" x2="168" y2="29" id="Path" stroke="#000000" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="170" y1="35.0380729" x2="170" y2="21.8863252" id="Path" stroke="#000000" stroke-width="2" stroke-linecap="square"></line>
+        <g id="Group-2" transform="translate(126.372124, 45.745191) rotate(30.000000) translate(-126.372124, -45.745191) translate(91.872124, 38.245191)" stroke="#000000" stroke-linecap="square" stroke-width="2">
+            <line x1="0.689636542" y1="8" x2="66" y2="8" id="Path"></line>
+            <line x1="68" y1="14.0380729" x2="68" y2="0.886325155" id="Path"></line>
+        </g>
+        <g id="Group-3" transform="translate(89.000000, 113.754809) scale(1, -1) translate(-89.000000, -113.754809) translate(8.000000, 89.509619)" stroke="#000000" stroke-linecap="square" stroke-width="2">
+            <line x1="0" y1="8" x2="159" y2="8" id="Path"></line>
+            <line x1="161" y1="14.0380729" x2="161" y2="0.886325155" id="Path"></line>
+            <g id="Group-2" transform="translate(117.372124, 24.745191) rotate(30.000000) translate(-117.372124, -24.745191) translate(82.872124, 17.245191)">
+                <line x1="0.689636542" y1="8" x2="66" y2="8" id="Path"></line>
+                <line x1="68" y1="14.0380729" x2="68" y2="0.886325155" id="Path"></line>
+            </g>
+        </g>
+        <line x1="208" y1="35.0380729" x2="208" y2="21.8863252" id="Path" stroke="#000000" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="209" y1="29" x2="386" y2="29" id="Path" stroke="#000000" stroke-width="2" stroke-linecap="square"></line>
+        <path id="Path" d="M389.368686,70.8881632 L390.240261,71.3784245 L402.240261,78.1284245 L403.789729,79 L402.240261,79.8715755 L390.240261,86.6215755 L389.368686,87.1118368 L388.388163,85.3686857 L389.259739,84.8784245 L397.932,80 L223,80 L223,78 L397.932,78 L389.259739,73.1215755 L388.388163,72.6313143 L389.368686,70.8881632 Z" fill="#000000" fill-rule="nonzero"></path>
+        <g id="Group" transform="translate(191.000000, 39.500000) rotate(-90.000000) translate(-191.000000, -39.500000) translate(175.000000, 32.000000)" stroke="#000000" stroke-linecap="square" stroke-width="2">
+            <line x1="2" y1="14.0380729" x2="2" y2="0.886325155" id="Path"></line>
+            <line x1="3" y1="7" x2="32" y2="7" id="Path"></line>
+        </g>
+        <circle id="Oval" stroke="#000000" stroke-width="2" fill="#FFFFFF" cx="190" cy="29" r="11"></circle>
+        <polygon id="Line" stroke="#378259" fill="#378259" opacity="0.8" stroke-linecap="square" points="191.872029 35.6630484 191.872029 30.6103614 196.774603 30.6103614 196.774603 27.4702231 191.872029 27.4702231 191.872029 22 188.693528 22 188.693528 27.4702231 184 27.4702231 184 30.6103614 188.693528 30.6103614 188.693528 35.6630484"></polygon>
+        <g id="Group-4" transform="translate(282.500000, 122.250000) scale(1, -1) translate(-282.500000, -122.250000) translate(179.000000, 103.500000)">
+            <line x1="29" y1="17.0380729" x2="29" y2="3.88632515" id="Path" stroke="#000000" stroke-width="2" stroke-linecap="square"></line>
+            <line x1="30" y1="11" x2="207" y2="11" id="Path" stroke="#000000" stroke-width="2" stroke-linecap="square"></line>
+            <g id="Group" transform="translate(11.000000, 21.500000) rotate(-90.000000) translate(-11.000000, -21.500000) translate(-5.000000, 14.000000)" stroke="#000000" stroke-linecap="square" stroke-width="2">
+                <line x1="2" y1="14.0380729" x2="2" y2="0.886325155" id="Path"></line>
+                <line x1="3" y1="7.5" x2="32" y2="7.5" id="Path"></line>
+            </g>
+            <circle id="Oval" stroke="#000000" stroke-width="2" fill="#FFFFFF" cx="11" cy="11" r="11"></circle>
+            <polygon id="Line" stroke="#D0021B" fill="#D0021B" opacity="0.8" stroke-linecap="square" points="12.4007558 12.0993298 17.6085872 12.0993298 17.6085872 8.76367187 12.4007558 8.76367187 9.02434714 8.76367187 4.03857802 8.76367187 4.03857802 12.0993298 9.02434714 12.0993298"></polygon>
+        </g>
+        <text id="C-delta-fiber" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="9" y="25">C-delta fiber</tspan>
+        </text>
+        <text id="spinothalamic-input" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="273.392" y="25">spinothalamic input</tspan>
+        </text>
+        <text id="spinothalamic-input-copy" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="273.392" y="143">spinothalamic input</tspan>
+        </text>
+        <text id="A-beta-fiber" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="9" y="143">A-beta fiber</tspan>
+        </text>
+        <ellipse id="Oval-2" stroke="#000000" stroke-width="4" fill="#8C8C8C" cx="190.586914" cy="79" rx="33.0205078" ry="18.6568322"></ellipse>
+    </g>
+</svg>
