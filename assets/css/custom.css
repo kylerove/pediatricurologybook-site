@@ -674,8 +674,9 @@ table {
 div.table-wrapper {
     border-radius: 0.3em;
     background-color: #FFC300;
-    margin-bottom: 30px
+    margin-bottom: 30px;
     padding:8px;
+    width: inherit;
 }
 
 div.table-box {
