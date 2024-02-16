@@ -545,14 +545,12 @@ ul.contributors {
   padding-bottom:30px;
 }
 
-.break-avoid {
+.author-container {
     -webkit-column-break-inside:avoid;
 	break-inside:avoid;
-}
-
-.break-avoid {
-    -webkit-column-break-inside:avoid;
-  break-inside:avoid;
+    white-space: nowrap !important;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 div.site-map h2 {
@@ -896,8 +894,9 @@ p.p-video-number {
 }
 
 .author-name {
-  position: relative;
+  /*position: relative;
   display: inline-block;
+  white-space: nowrap;*/
 }
 
 .author-name a {
@@ -1038,7 +1037,7 @@ a.social-drop-down {
 }
 
 a.social-drop-down:hover:before, a.social-drop-down.activated:before {
-  background: url("/assets/img/social-bracket-red.svg") center no-repeat;
+  background: url("/assets/img/social-braket-red.svg") center no-repeat;
   top:0;
   left:0;
   width:30px;height:15px;
@@ -1247,3 +1246,8 @@ ol ol ol ol {
 .social-icons li:hover.social-icons-mastodon a {
   background: #ff8201 !important;
 }
+
+div.authors {
+  width: 100%;
+}
+
