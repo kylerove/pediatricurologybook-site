@@ -545,6 +545,11 @@ ul.contributors {
   padding-bottom:30px;
 }
 
+.break-avoid {
+    -webkit-column-break-inside:avoid;
+  break-inside:avoid;
+}
+
 .author-container {
     -webkit-column-break-inside:avoid;
 	break-inside:avoid;
