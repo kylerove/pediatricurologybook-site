@@ -111,7 +111,7 @@
     
     ,{
         "title": "搜索",
-        "content": "输入几个词来查找此站点上的页面和博客文章。\n\n\n\n此搜索框会将您带到 DuckDuckGo1\n包含搜索结果的页面，但仅限于\nhttps://pediatricurologybook.com。 如果您想返回此页面，可以使用浏览器的\n返回键。\n\n\n  \n    \n\n      DuckDuckGo 是一个网络搜索引擎，就像\n Google 或\n AltaVista。 &#8617;\n    \n  \n\n",
+        "content": "输入几个单词即可查找此网站上的页面。\n\n\n\n此搜索框会将您带到 DuckDuckGo1\n包含搜索结果的页面，但仅限于\nhttps://pediatricurologybook.com。 如果您想返回此页面，可以使用浏览器的\n返回键。\n\n\n  \n    \n\n      DuckDuckGo 是一个网络搜索引擎，就像\n Google 或\n AltaVista。 &#8617;\n    \n  \n\n",
         "link": "/zh/search/",
         "date": null,
         "excerpt": "小儿泌尿外科书籍的搜索功能。",

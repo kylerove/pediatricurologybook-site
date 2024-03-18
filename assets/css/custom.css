@@ -499,7 +499,7 @@ a.anchor {
   box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.05);
   background: #FFF;
   padding: 3px;
-  min-width: 180px;
+  min-width: 350px;
   z-index: 10000;
   margin-right: 0;
   margin-top: 1px;
@@ -530,8 +530,12 @@ a.anchor {
 
 #header #search-results a {
 	color: #999;
-	padding: 5px 12px;
+	/*padding: 5px 12px;*/
 	font-size: 0.9em;
+}
+
+#header #search-results li.search-item {
+  white-space:inherit;
 }
 
 #header #search-results a:active {
@@ -1254,5 +1258,19 @@ ol ol ol ol {
 
 div.authors {
   width: 100%;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+#search-results li p {
+  font-size: 0.5em;
+  margin:0; padding:0;
+  line-height: 2em;
+  height: 4em;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
 }
 
