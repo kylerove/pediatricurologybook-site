@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Informatique clinique | Pediatric Urology Book</title>
+  
+  <!-- SEO stuff -->
+  <meta name="generator" content="Jekyll v4.2.2" />
+  <meta name="author" content="Arlen AM, Gundeti MS, López P-J, Rove KO" />
+  <meta name="description" content="Le chapitre 64 explore un concept d’informatique clinique de plus en plus important, ainsi que la manière de s’y engager et de l’appliquer en urologie pédiatrique." />
+  <meta property="article:published_time" content="2023-04-28" />
+  <link rel="canonical" href="https://pediatricurologybook.com/fr/book/chapters/11-64_clinical-informatics/" />
+  <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"WebSite",
+      "editor": [
+        {
+          "@type":"Person",
+          "email":"angela.arlen@yale.edu",
+          "affiliation":[
+            {
+              "@type":"Organization",
+              "url":"https://medicine.yale.edu/",
+              "name":"Yale University School of Medicine"
+            },{
+              "@type":"Organization",
+              "url":"https://www.ynhh.org/",
+              "name":"Yale-New Haven Hospital"
+            }
+          ],
+          "familyName": "Arlen",
+          "givenName": "Angela",
+          "additionalName":"M.",
+          "name":"Angela M. Arlen"
+        }
+      ,{
+          "@type":"Person",
+          "email":"mgundeti@surgery.bsd.uchicago.edu",
+          "affiliation":[
+            {
+              "@type":"Organization",
+              "url":"https://www.uchicagomedicine.org/",
+              "name":"University of Chicago Medical Center"
+            },{
+              "@type":"Organization",
+              "url":"https://www.uchicagomedicine.org/comer",
+              "name":"Comer Children’s Hospital"
+            }
+          ],
+          "familyName": "Gundeti",
+          "givenName": "Mohan",
+          "additionalName":"S.",
+          "name":"Mohan S. Gundeti"
+        }
+      ,{
+          "@type":"Person",
+          "email":"pejotalopez@gmail.com",
+          "affiliation":[
+            {
+              "@type":"Organization",
+              "url":"https://www.urologiahegc.cl/",
+              "name":"Hospital Exequiel González Cortés & Clinica Alemana "
+            },{
+              "@type":"Organization",
+              "url":"https://www.uchile.cl/",
+              "name":"Universidad de Chile"
+            }
+          ],
+          "familyName": "López",
+          "givenName": "Pedro-José",
+          "name":"Pedro-José López"
+        }
+      ,{
+          "@type":"Person",
+          "email":"kyle.rove@childrenscolorado.org",
+          "affiliation":[
+            {
+              "@type":"Organization",
+              "url":"https://www.childrenscolorado.org",
+              "name":"Children's Hospital Colorado"
+            },{
+              "@type":"Organization",
+              "url":"https://medschool.cuanschutz.edu",
+              "name":"University of Colorado, School of Medicine"
+            }
+          ],
+          "familyName": "Rove",
+          "givenName": "Kyle",
+          "additionalName":"O.",
+          "name":"Kyle O. Rove"
+        }
+      ],
+      "author":[
+        {
+          "@type":"Person",
+          "email":"hecht@ohsu.edu",
+          "affiliation":[
+            {
+              "@type":"Organization",
+              "url":"https://www.ohsu.edu/doernbecher",
+              "name":"Doernbecher Children's Hospital, Oregon Health & Science University"
+            }
+          ],
+          "familyName": "Hecht",
+          "givenName": "Sarah",
+          "additionalName":"L.",
+          "name":"Sarah L. Hecht"
+        }
+      ,{
+          "@type":"Person",
+          "email":"kyle.rove@childrenscolorado.org",
+          "affiliation":[
+            {
+              "@type":"Organization",
+              "url":"https://www.childrenscolorado.org",
+              "name":"Children's Hospital Colorado"
+            },{
+              "@type":"Organization",
+              "url":"https://medschool.cuanschutz.edu",
+              "name":"University of Colorado, School of Medicine"
+            }
+          ],
+          "familyName": "Rove",
+          "givenName": "Kyle",
+          "additionalName":"O.",
+          "name":"Kyle O. Rove"
+        }
+      ],
+      "datePublished":"2023-04-28",
+      "dateModified":"2025-09-22",
+      "description":"Le chapitre 64 explore un concept d’informatique clinique de plus en plus important, ainsi que la manière de s’y engager et de l’appliquer en urologie pédiatrique.",
+      "image":"https://pediatricurologybook.com/assets/thumbs/11-64_clinical-informatics-fr.png",
+      "headline":"Informatique clinique",
+      "name":"Pediatric Urology Book",
+      "url":"https://pediatricurologybook.com/book/chapters/11-64_clinical-informatics/"
+    }
+  </script>
+
+  <!-- I18n headers -->
+  <meta http-equiv="Content-Language" content="fr">
+<link rel="alternate" hreflang="en" href="https://pediatricurologybook.com/book/chapters/11-64_clinical-informatics/"/>
+<link rel="alternate" hreflang="es" href="https://pediatricurologybook.com/es/book/chapters/11-64_clinical-informatics/"/>
+<link rel="alternate" hreflang="zh" href="https://pediatricurologybook.com/zh/book/chapters/11-64_clinical-informatics/"/>
+<link rel="alternate" hreflang="pt" href="https://pediatricurologybook.com/pt/book/chapters/11-64_clinical-informatics/"/>
+<link rel="alternate" hreflang="fr" href="https://pediatricurologybook.com/fr/book/chapters/11-64_clinical-informatics/"/>
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://pediatricurologybook.com/fr/favicon.ico" type="image/x-icon" > <!-- 32×32 -->
+  <link rel="icon" href="https://pediatricurologybook.com/assets/site-img/favicons/icon.svg" type="image/svg+xml">    <!-- res independent -->
+  <link rel="apple-touch-icon" href="https://pediatricurologybook.com/assets/site-img/favicons/apple-touch-icon.png"> <!-- 180×180 -->
+  <link rel="manifest" href="/fr/manifest.webmanifest">
+  
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  
+  <!-- Social Media Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://pediatricurologybook.com/assets/thumbs/11-64_clinical-informatics-fr.png" />
+  <meta name="twitter:site" content="@PedUrologyBook" />
+  <meta name="twitter:title" content="Informatique clinique" />
+  <meta name="twitter:description" content="Le chapitre 64 explore un concept d’informatique clinique de plus en plus important, ainsi que la manière de s’y engager et de l’appliquer en urologie pédiatrique." />
+  <meta property="og:locale" content="fr" />
+  <meta property="og:site_name" content="Pediatric Urology Book" />
+  <meta property="og:title" content="Informatique clinique" />
+  <meta property="og:url" content="https://pediatricurologybook.com/book/chapters/11-64_clinical-informatics/" />
+  <meta property="og:image" content="https://pediatricurologybook.com/assets/thumbs/11-64_clinical-informatics-fr.png" />
+  <meta property="og:description" content="Le chapitre 64 explore un concept d’informatique clinique de plus en plus important, ainsi que la manière de s’y engager et de l’appliquer en urologie pédiatrique." />
+  
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="https://pediatricurologybook.com/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pediatricurologybook.com/assets/vendor/fontawesome-pro/css/all.min.css">
+  <link rel="stylesheet" href="https://pediatricurologybook.com/assets/vendor/animate/animate.min.css">
+  <link rel="stylesheet" href="https://pediatricurologybook.com/assets/vendor/rs-plugin/css/navigation.css">
+  <link rel="stylesheet" href="https://pediatricurologybook.com/assets/vendor/owl.carousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://pediatricurologybook.com/assets/vendor/owl.carousel/assets/owl.theme.default.min.css">
+  
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="https://pediatricurologybook.com/assets/css/theme.css">
+  <link rel="stylesheet" href="https://pediatricurologybook.com/assets/css/theme-elements.css">
+
+  <!-- Skin CSS -->
+  <link rel="stylesheet" href="https://pediatricurologybook.com/assets/css/skins/skin-pub.css"> 
+  
+  <!-- Theme Custom CSS -->
+  <link rel="stylesheet" href="https://pediatricurologybook.com/assets/css/custom.css">
+  
+  <!-- JS Libraries -->
+  <script src="https://pediatricurologybook.com/assets/vendor/modernizr/modernizr.min.js"></script>
+</head>
+<body data-plugin-page-transition>
+
+    <div class="body" aria-label="Content">    
+    
+    <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 108, 'stickySetTop': '-109px', 'stickyChangeLogo': true}">
+      <div class="header-body">
+        <div class="header-container container">
+          <div class="header-row">
+            <div class="header-column">
+              <div class="header-row">
+                <div class="header-logo">
+                  <a class="site-title" rel="author" href="https://pediatricurologybook.com/fr/">
+                    <img width="254" height="165" data-sticky-width="126" data-sticky-height="80" data-sticky-top="95" alt="Pedatric Urology Book" src="https://pediatricurologybook.com/assets/site-img/pediatricurologybook-new.svg">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="header-column justify-content-end">
+              <div class="header-row pt-3 mb-3">
+                <nav class="header-nav-top">
+                  <ul class="nav nav-pills">
+                    <li class="nav-item nav-item-anim-icon d-none d-lg-block">
+                      <a class="nav-link pl-0" href="https://pediatricurologybook.com/fr/about-us/"><i class="fa fa-angle-right pr-1"></i>À propos de nous</a>
+                    </li>
+                    <li class="nav-item nav-item-anim-icon d-none d-lg-block">
+                      <a class="nav-link" href="https://pediatricurologybook.com/fr/contact-us/"><i class="fa fa-angle-right pr-1"></i>Contactez-nous</a>
+                    </li>
+                    <li class="nav-item dropdown nav-item-left-border d-block nav-item-left-border-remove nav-item-left-border-md-show">
+                      
+                      <a class="nav-link" href="#" role="button" id="dropdown-language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-globe-europe"></i> Français
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdown-language">
+                        
+                          
+                          
+                          
+                          
+                          <a class="dropdown-item" href="https://pediatricurologybook.com/book/chapters/11-64_clinical-informatics/">English</a>
+                          
+                        
+                          
+                          
+                          
+                          
+                          <a class="dropdown-item" href="https://pediatricurologybook.com/es/book/chapters/11-64_clinical-informatics/">Español</a>
+                          
+                        
+                          
+                          
+                          
+                          
+                          <a class="dropdown-item" href="https://pediatricurologybook.com/zh/book/chapters/11-64_clinical-informatics/">简体中文</a>
+                          
+                        
+                          
+                          
+                          
+                          
+                          <a class="dropdown-item" href="https://pediatricurologybook.com/pt/book/chapters/11-64_clinical-informatics/">Português</a>
+                          
+                        
+                          
+                            
+                      </div>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="header-nav-features header-nav-features-no-border header-nav-features-md-show-border d-md-inline-flex">
+                    <div class="simple-search input-group w-auto">
+                      <input class="form-control text-1" id="search-input" name="q" type="text" value="" placeholder="Rechercher...">
+                      <span class="input-group-btn">
+                        <button class="btn" type="submit">
+                          <i class="fa fa-search"></i>
+                        </button>
+                      </span>
+                      <ul id="search-results">
+                      </ul>
+                    </div>
+                </div>
+              </div>
+              <div class="header-row">
+                <div class="header-nav pt-1">
+                  <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
+                    <nav class="collapse">
+                      <ul class="nav nav-pills" id="mainNav">
+                        <li><a href="https://pediatricurologybook.com/fr/"><i class="fas fa-home pr-1"></i>Accueil</a></li>
+                        <li><a href="https://pediatricurologybook.com/fr/book/"><i class="fas fa-book pr-1"></i>Allez Lire Le Livre</a></li>
+                        <li><a href="https://pediatricurologybook.com/fr/editors/"><i class="fas fa-pen-fancy pr-1"></i>Éditeurs</a></li>
+                        <li><a href="https://pediatricurologybook.com/fr/contributors/"><i class="fas fa-code-branch pr-1"></i>Contributeurs</a></li>
+                        <li><a href="https://pediatricurologybook.com/fr/sponsors/"><i class="fas fa-user-md pr-1"></i>Sponsors</a></li>
+                      </ul>
+                    </nav>
+                  </div> <!-- end header-nav-main -->
+                  <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+                      <i class="fas fa-bars"></i>
+                  </button>
+                </div> <!-- end header-nav -->
+              </div> <!-- end header-row -->
+            </div> <!-- end header-column -->
+          </div> <!-- end header-row -->
+        </div> <!-- end header-container -->
+      </div> <!-- end header-body -->
+    </header>
+        
+    
+    
+    
+    
+    
+    <div role="main" class="main">
+      <section class="page-header page-header-modern bg-color-primary page-header-md">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+              <h1>64: Informatique clinique</h1>
+            </div>
+            
+            <div class="col-md-4 order-1 order-md-2 align-self-center">
+              <ul class="breadcrumb d-block text-md-right breadcrumb-light">
+              
+                <li><a href="https://pediatricurologybook.com/fr/">Accueil</a></li>
+              
+                <li><a href="https://pediatricurologybook.com/fr/book/">Livre</a></li>
+              
+                <li class="active"><a href="https://pediatricurologybook.com/fr/book/#au-dela-des-frontieres-de-l-urologie-pediatrique">Section 11: Au-delà des Frontières de l'Urologie Pédiatrique</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container chapter chapter-11-64">
+        <div class="row">
+          <div class="col-lg-3 order-2 order-lg-1 mt-4 mt-lg-0 chapter-toc">
+            <aside class="sidebar">
+              <h5 class="font-weight-bold no_toc">Sommaire du chapitre</h5>
+    
+            <ul class="nav nav-list flex-column mb-5">
+<li class="nav-item toc-h2"><a href="#introduction">Introduction</a></li>
+<li class="nav-item toc-h2"><a href="#définition-de-lemrce-que-cest">Définition de l’EMR—Ce que c’est</a></li>
+<li class="nav-item toc-h2"><a href="#exemples-dinformatique-clinique">Exemples d’informatique clinique</a>
+<ul>
+<li class="nav-item toc-h3"><a href="#stratégies-de-documentation-et-normalisation">Stratégies de documentation et normalisation</a></li>
+<li class="nav-item toc-h3"><a href="#création-de-données-discrètes">Création de données discrètes</a></li>
+<li class="nav-item toc-h3"><a href="#aide-à-la-décision-clinique">Aide à la décision clinique</a></li>
+</ul>
+</li>
+<li class="nav-item toc-h2"><a href="#formation-en-informatique">Formation en informatique</a></li>
+<li class="nav-item toc-h2"><a href="#gouvernance-du-dme">Gouvernance du DME</a></li>
+<li class="nav-item toc-h2"><a href="#direction-de-linformatique-et-service-dassistance">Direction de l’informatique et service d’assistance</a></li>
+<li class="nav-item toc-h2"><a href="#conclusion">Conclusion</a></li>
+<li class="nav-item toc-h2"><a href="#points-clés">Points clés</a></li>
+<li class="nav-item toc-h2"><a href="#références">Références</a></li>
+</ul>
+            
+            
+            
+            </aside>
+          </div>
+          <div class="col-lg-9 order-1 order-lg-2 chapter-body">
+            <p class="time-to-read"><i class="fas fa-circle-info pr-2"></i><em>Ce chapitre prendra environ 11 minutes de lecture.</em></p><div class="attribution">
+    <div class="authors">
+        Par <span class="author-container"><span class="author-name">
+    <a href="/fr/contributors/#rove-kyle-o">Kyle O. Rove, MD</a>
+</span> <a href="#" id="social-drop-4" class="social-drop-down" aria-haspopup="true" aria-expanded="false"><i class="fa-regular fa-signal-stream"></i></a> <sup>1, 2</sup></span>&nbsp; &amp; <span class="author-container"><span class="author-name">
+    <a href="/fr/contributors/#hecht-sarah-l">Sarah L. Hecht, MD</a>
+</span> <a href="#" id="social-drop-9" class="social-drop-down" aria-haspopup="true" aria-expanded="false"><i class="fa-regular fa-signal-stream"></i></a> <sup>3</sup></span></div><ul class="thumb-info-social-icons" id="social-drop-4">
+    <li class="social-icons-website"><a href="https://som.ucdenver.edu/Profiles/Faculty/Profile/27770" target="_blank" title="Site Web"><i class="fas fa-link"></i></a></li>
+    <li class="social-icons-email"><a href="mailto:kyle.rove@childrenscolorado.org" target="_blank" title="E-mail"><i class="fas fa-envelope"></i></a></li>
+    
+    
+    <li class="social-icons-mastodon"><a href="https://med-mastodon.com/@kylerove" target="_blank" title="Mastodon"><i class="fab fa-mastodon"></i></a></li>
+    
+    
+    
+    
+    
+    
+    <li class="social-icons-doximity"><a href="https://www.doximity.com/profiles/8fbd52ba-0248-4410-8fb1-9de4703d14ad/view" target="_blank" title="Doximity"><i class="ai2 ai-doximity"></i></a></li>
+    <li class="social-icons-researchgate"><a href="https://www.researchgate.net/profile/Kyle_Rove" target="_blank" title="ResearchGate"><i class="ai2 ai-researchgate"></i></a></li>
+    <li class="social-icons-orcid"><a href="https://orcid.org/0000-0002-2323-4139" target="_blank" title="ORCiD"><i class="ai2 ai-orcid"></i></a></li>
+    <li class="social-icons-pubmed"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=rove+ko&sort=pubdate" target="_blank" title="PubMed"><i class="ai2 ai-pubmed"></i></a></li>
+</ul><ul class="thumb-info-social-icons" id="social-drop-9">
+    <li class="social-icons-website"><a href="https://www.ohsu.edu/people/sarah-hecht-md" target="_blank" title="Site Web"><i class="fas fa-link"></i></a></li>
+    <li class="social-icons-email"><a href="mailto:hecht@ohsu.edu" target="_blank" title="E-mail"><i class="fas fa-envelope"></i></a></li>
+    
+    <li class="social-icons-twitter"><a href="https://twitter.com/SarahHechtMD" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+    
+    
+    
+    
+    
+    
+    
+    <li class="social-icons-doximity"><a href="https://www.doximity.com/profiles/1bddb104-447b-4caf-86f6-8f6a356be899/view" target="_blank" title="Doximity"><i class="ai2 ai-doximity"></i></a></li>
+    
+    
+    <li class="social-icons-pubmed"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=hecht+sl" target="_blank" title="PubMed"><i class="ai2 ai-pubmed"></i></a></li>
+</ul><ol class="author-affiliation-list"><li class="author-affiliation" value="1"><span>
+    <address>Department of Pediatric Urology, <a href="https://www.childrenscolorado.org">Children's Hospital Colorado</a>, Aurora, CO, USA
+    </address>
+</span></li>
+                <li class="author-affiliation" value="2"><span>
+    <address>Department of Surgery, Division of Urology, <a href="https://medschool.cuanschutz.edu">University of Colorado, School of Medicine</a>, Aurora, CO, USA
+    </address>
+</span></li><li class="author-affiliation" value="3"><span>
+    <address>Department of Urology, Division of Pediatric Urology, <a href="https://www.ohsu.edu/doernbecher">Doernbecher Children's Hospital, Oregon Health & Science University</a>, Portland, OR, USA
+    </address>
+</span></li></ol>
+</div>
+
+                
+            <h2 id="introduction">
+<a class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p class="drop-caps">De plus en plus, il est largement reconnu que l’expertise clinique et l’expertise en technologies de l’information ne se recoupent pas toujours, surtout à mesure que ces domaines distincts ont emprunté la voie de la sous-spécialisation. Avez-vous déjà eu du mal à expliquer au service d’assistance ce qui ne fonctionne pas dans le dossier médical électronique (<abbr title="dossier médical électronique">EMR</abbr>) ? Une “mise à niveau” de l’<abbr title="dossier médical électronique">EMR</abbr> vous a-t-elle déjà donné l’impression d’une “dégradation?” du flux de travail clinique ? Il s’agit d’un écart vécu par la plupart des organisations de soins de santé, et de plus en plus d’organisations mettent en place des programmes d’informatique clinique pour combler cet écart.</p>
+
+<p><strong>Un informaticien clinique (parfois appelé « informaticien »), est un professionnel de santé doté de connaissances et d’une formation spécialisées en systèmes d’information cliniques, généralement centrées sur le DME.</strong> L’informatique clinique s’est, au cours de la dernière décennie, développée en une spécialité à part entière, avec formation et certification par un conseil de spécialité. Certaines spécialités s’appuient sur de tels spécialistes depuis bien plus longtemps que l’urologie ou la chirurgie, notamment l’anatomopathologie (interfaces des systèmes de laboratoire) et la radiologie (interfaces <abbr title="système d’archivage et de communication d’images">PACS</abbr>). Mais à mesure que les DME évoluent et que davantage de nos flux de travail sont numérisés, même les chirurgiens sont affectés par l’écart susmentionné, et il devient de plus en plus impératif que des praticiens chirurgicaux formés au DME soient présents à la table pour les décisions qui affectent notre pratique.</p>
+
+<p>L’informatique clinique peut aussi être définie par ce qu’elle n’est pas : des médecins utilisant un ordinateur, des médecins qui utilisent des logiciels cliniques (à tout niveau d’expertise), ou des médecins effectuant des analyses de données ou de la recherche. Historiquement, le jeune domaine de l’informatique clinique a eu du mal à faire comprendre ce que nous faisons, et énoncer ce que nous ne sommes pas est un exercice utile pour souligner la définition. <a href="#figure-1" class="figure-link">Figure 1</a> illustre certains des chevauchements et des fonctions de l’informatique clinique avec le domaine de l’analytique. De même, <a href="#figure-2" class="figure-link">Figure 2</a> montre comment le chevauchement entre le système de santé, les soins cliniques, et les technologies de l’information et les systèmes conduit à différents domaines d’expertise, l’informatique clinique se trouvant au centre.</p>
+
+<p><img src="https://pediatricurologybook.com/assets/figures/figure-64-1.svg" alt="Figure 1" class="float-start img-fluid"><br>
+<strong id="figure-1" class="figure-number">Figure 1</strong> L’informatique clinique, en tant que domaine, présente un certain chevauchement et des liens avec l’analytique (qui, dans de nombreux systèmes de santé, est naissante), mais chacune comporte des éléments propres qui la distinguent de l’autre.</p>
+
+<p><strong id="figure-2" class="figure-number">Figure 2</strong> Les domaines qui se recoupent dans et autour des soins cliniques différencient l’informatique clinique
+<img src="https://pediatricurologybook.com/assets/figures/figure-64-2.svg" alt="Figure 2" class="float-start img-fluid">   des domaines tels que l’amélioration de la qualité et la sécurité des patients, ainsi que le service d’assistance informatique. L’informatique clinique se situe à l’intersection des trois grands domaines, les soins cliniques, le système de santé et les technologies de l’information et de la communication.</p>
+
+<h2 id="définition-de-lemrce-que-cest">
+<a class="anchor" href="#d%C3%A9finition-de-lemrce-que-cest" aria-hidden="true"><span class="octicon octicon-link"></span></a>Définition de l’<abbr title="dossier médical électronique">EMR</abbr>—Ce que c’est</h2>
+
+<p>Il existe différents termes pour désigner les dossiers médicaux informatisés, y compris le titre de cette revue, dossier médical électronique (<abbr title="dossier médical électronique">EMR</abbr>). Mais qu’est-ce qui constitue un <abbr title="dossier médical électronique">EMR</abbr> ? Les <abbr title="dossier médical électronique">EMR</abbr> peuvent consister en une application unique et de grande taille (p. ex., Epic ou Cerner ou AllScripts) concédée sous licence et maintenue par une organisation de prestation de soins comme un hôpital ou ou une clinique privée, ou ils peuvent également être constitués de plusieurs applications distinctes. Le terme dossier de santé électronique (<abbr title="dossier de santé électronique">EHR</abbr>) est parfois utilisé comme synonyme d’<abbr title="dossier médical électronique">EMR</abbr>, mais il est défini comme un concept séparé et distinct d’un portail destiné aux patients qui permet l’accès aux dossiers provenant de plusieurs organisations de prestation de soins de santé et qui unifie l’information en un seul endroit. <a href="#table-1" class="table-link">Tableau 1</a> propose une comparaison de l’<abbr title="dossier médical électronique">EMR</abbr>, de l’<abbr title="dossier de santé électronique">EHR</abbr> et des échanges d’informations de santé (<abbr title="échange d’informations de santé">HIE</abbr>), qui deviennent également de plus en plus importants à l’échelle régionale pour faciliter un échange d’informations électronique, sécurisé, efficace et en temps opportun entre les organisations.</p>
+
+<p>Au-delà de la définition du DME, il existe également des mesures du degré d’avancement des capacités et des intégrations au sein du DME, définies par la <abbr title="Société des systèmes d’information et de gestion des soins de santé">HIMSS</abbr>.<a class="citation" href="#anon-a"><span style="vertical-align: super">1</span></a> En définissant ces étapes, les organisations peuvent comparer leurs capacités (fonctionnalités et intégrations qui influent sur la sécurité des patients, la sécurité des données et l’efficacité/la satisfaction des cliniciens) les unes par rapport aux autres. La définition de chaque étape<a class="citation" href="#anon-a"><span style="vertical-align: super">1,2,3,4,5,6,7</span></a> inclut les capacités de cette étape ainsi que toutes celles des étapes inférieures. L’étape la plus avancée est l’étape 7 de la <abbr title="Société des systèmes d’information et de gestion des soins de santé">HIMSS</abbr>. Celles-ci sont présentées dans le <a href="#table-2" class="table-link">Tableau 2</a>.</p>
+
+<p><strong id="table-1" class="table-number">Tableau 1</strong> Différences entre un dossier médical électronique (<abbr title="dossier médical électronique">EMR</abbr>), un dossier de santé électronique (<abbr title="dossier de santé électronique">EHR</abbr>) et un échange d’informations de santé (<abbr title="échange d’informations de santé">HIE</abbr>). Les <abbr title="dossier médical électronique">EMR</abbr> peuvent se composer d’une application unique et de grande taille (p. ex., Epic ou Cerner) appartenant à et maintenue par une organisation de prestation de soins comme un hôpital, un système hospitalier ou une clinique privée, ou ils peuvent aussi se composer de plusieurs applications. Un <abbr title="échange d’informations de santé">HIE</abbr>, en revanche, facilite le partage d’informations entre des <abbr title="dossier médical électronique">EMR</abbr> en utilisant des terminologies normalisées (p. ex., <abbr title="Classification internationale des maladies">ICD</abbr>-10 et <abbr title="Nomenclature systématisée de la médecine">SNOMED</abbr> pour les diagnostics, <abbr title="Terminologie des actes médicaux courants®">CPT</abbr> pour les procédures, des codes <abbr title="Noms et codes des identificateurs d’observation logique">LOINC</abbr> pour les tests de laboratoire, etc). Les <abbr title="échange d’informations de santé">HIE</abbr> sont de plus en plus courants. Des exemples d’<abbr title="dossier de santé électronique">EHR</abbr> incluent Apple Health ou Google Health, qui peuvent collecter et intégrer des informations de manière sécurisée à partir de multiples entités.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><abbr title="dossier médical électronique">EMR</abbr></th>
+      <th><abbr title="dossier de santé électronique">EHR</abbr></th>
+      <th><abbr title="échange d’informations de santé">HIE</abbr></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Appartenant à une organisation de prestation de soins (hôpital, système hospitalier, clinique)</td>
+      <td>Appartenant au patient ou à une partie prenante</td>
+      <td>Entité indépendante ayant des accords avec de multiples organisations pour partager automatiquement des informations normalisées (p. ex., médicaments, vaccinations, notes, comptes rendus de sortie, analyses de laboratoire, entre autres)</td>
+    </tr>
+    <tr>
+      <td>Contient le dossier médical légal d’une seule organisation</td>
+      <td>Sous-ensemble de dossiers concernant un seul patient et couvrant plusieurs organisations</td>
+      <td>Facilite l’échange d’informations avec les organisations membres</td>
+    </tr>
+    <tr>
+      <td>Une seule organisation</td>
+      <td>Peut couvrir des zones locales, régionales et nationales</td>
+      <td>Peut couvrir des zones locales, régionales et nationales (p. ex., <abbr title="Organisation régionale d’information de santé du Colorado">CORHIO</abbr> <abbr title="échange d’informations de santé">HIE</abbr> dans l’État du Colorado)</td>
+    </tr>
+    <tr>
+      <td>Application intégrée ou applications multiples</td>
+      <td>Interface interactive (portail web ou application mobile, généralement utilisée par les patients)</td>
+      <td>Interface interactive (portail web ou application mobile, généralement utilisée par les professionnels de santé au sein des organisations membres) ou peut directement intégrer/envoyer/recevoir des données dans l’<abbr title="dossier médical électronique">EMR</abbr> de l’organisation</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong id="table-2" class="table-number">Tableau 2</strong> Niveaux <abbr title="Société des systèmes d’information et de gestion des soins de santé">HIMSS</abbr> des capacités du DME. Le niveau 7 est le plus avancé et inclut toutes les capacités énoncées <em>ainsi que</em> toutes les capacités et intégrations répertoriées pour les niveaux 1–6. Chaque niveau inclut toutes les capacités de ce niveau et de tous les niveaux inférieurs.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Niveau <abbr title="Société des systèmes d’information et de gestion des soins de santé">HIMSS</abbr>
+</th>
+      <th>Fonctionnalités</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Niveau 7</td>
+      <td>
+<abbr title="dossier médical électronique">EMR</abbr> complet; transactions du document de continuité des soins (<abbr title="document de continuité des soins">CCD</abbr>) pour partager des données; entrepôt de données; continuité des données avec le service des urgences (<abbr title="service des urgences">ED</abbr>), l’ambulatoire et les patients externes (<abbr title="ambulatoire">OP</abbr>)</td>
+    </tr>
+    <tr>
+      <td>Niveau 6</td>
+      <td>Documentation des médecins (modèles structurés), systèmes complets d’aide à la décision clinique (<abbr title="systèmes d’aide à la décision clinique">CDSS</abbr>) (variance et conformité), R-<abbr title="système d’archivage et de communication d’images">PACS</abbr> complet</td>
+    </tr>
+    <tr>
+      <td>Niveau 5</td>
+      <td>Administration des médicaments en boucle fermée</td>
+    </tr>
+    <tr>
+      <td>Niveau 4</td>
+      <td>Saisie des prescriptions médicales (<abbr title="saisie informatisée des prescriptions médicales">CPOE</abbr>), aide à la décision clinique (protocoles cliniques)</td>
+    </tr>
+    <tr>
+      <td>Niveau 3</td>
+      <td>Documentation infirmière/clinique (feuilles de suivi), <abbr title="systèmes d’aide à la décision clinique">CDSS</abbr> (contrôle des erreurs), <abbr title="système d’archivage et de communication d’images">PACS</abbr> disponible en dehors de la radiologie</td>
+    </tr>
+    <tr>
+      <td>Niveau 2</td>
+      <td>Entrepôt de données cliniques (<abbr title="entrepôt de données cliniques">CDR</abbr>), vocabulaire médical contrôlé, aide à la décision clinique, peut disposer de numérisation de documents; compatible avec l’échange d’informations de santé (<abbr title="échange d’informations de santé">HIE</abbr>)</td>
+    </tr>
+    <tr>
+      <td>Niveau 1</td>
+      <td>Les trois auxiliaires (<abbr title="systèmes d’information">IS</abbr> de laboratoire, <abbr title="systèmes d’information">IS</abbr> de radiologie, <abbr title="systèmes d’information">IS</abbr> de pharmacie) installés</td>
+    </tr>
+    <tr>
+      <td>Niveau 0</td>
+      <td>Les trois auxiliaires (<abbr title="systèmes d’information">IS</abbr> de laboratoire, <abbr title="systèmes d’information">IS</abbr> de radiologie, <abbr title="systèmes d’information">IS</abbr> de pharmacie) non installés</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="exemples-dinformatique-clinique">
+<a class="anchor" href="#exemples-dinformatique-clinique" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exemples d’informatique clinique</h2>
+
+<h3 id="stratégies-de-documentation-et-normalisation">
+<a class="anchor" href="#strat%C3%A9gies-de-documentation-et-normalisation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stratégies de documentation et normalisation</h3>
+
+<p>L’ère des <abbr title="dossier médical électronique">EMR</abbr> a rendu de plus en plus simple le stockage d’informations sur les patients telles que des notes, des analyses de laboratoire, des résultats radiologiques, et plus encore. Cela a également entraîné un allongement spectaculaire de la documentation, car les <abbr title="dossier médical électronique">EMR</abbr> rendent très facile l’importation de ces informations dans une note.<a class="citation" href="#rule2021a"><span style="vertical-align: super">2,3,4,5</span></a> La conséquence inattendue est la tendance des cliniciens à inclure mot pour mot des informations redondantes (p. ex., l’intégralité d’un rapport d’échographie réno-vésicale) dans leurs notes de consultation et d’évolution en hospitalisation au lieu d’en faire la synthèse et d’en noter la signification—ce qui a conduit à un doublement de la longueur des notes de consultation depuis 2009.<a class="citation" href="#downing2018a"><span style="vertical-align: super">6</span></a></p>
+
+<p>Les informaticiens cliniques sont bien placés pour avoir un impact positif sur ce point en encourageant l’utilisation et la création de modèles de documentation dans l’<abbr title="dossier médical électronique">EMR</abbr>. Pourquoi est-ce important ? Trop souvent, les cliniciens répètent des tâches banales encore et encore, sans se rendre compte ni comprendre que l’<abbr title="dossier médical électronique">EMR</abbr> peut automatiser ces tâches et ce travail. Un excellent exemple est celui de patients présentant des problèmes courants d’urologie pédiatrique vus en consultation (p. ex., hypospadias, hydronéphrose, reflux vésico-urétéral, dysfonction vésico-intestinale). Si vous vous retrouvez à avoir la même conversation avec les patients et leurs familles et à présenter des options similaires, un modèle de note clinique peut transformer 10 minutes passées à “réinventer la roue” pour documenter cette conversation en un exercice de 30 à 60 secondes consistant à renseigner les détails clés dans un modèle de note clinique enregistré dans l’<abbr title="dossier médical électronique">EMR</abbr>.</p>
+
+<p><a href="#table-3" class="table-link">Tableau 3</a> fournit une liste des phénotypes ambulatoires du modèle de note <strong><em>partagé</em></strong> pour les nouveaux patients dans mon organisation. Notez le mot <strong><em>partagé</em></strong>: Notre groupe a choisi de créer cette ressource partagée pour tous les praticiens. L’avantage du partage est que nous avons standardisé la documentation pour ~95% des nouveaux patients, qui entrent dans cette liste, et tous les praticiens en bénéficient à mesure que les problèmes sont corrigés et que le modèle est affiné.</p>
+
+<p><strong id="table-3" class="table-number">Tableau 3</strong> Liste des modèles de notes partagées pour les nouveaux patients au Children’s Hospital Colorado en 2023.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Modèles pour nouveaux patients</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ano-rectal</td>
+    </tr>
+    <tr>
+      <td>Différences du développement sexuel</td>
+    </tr>
+    <tr>
+      <td>Dysfonction mictionnelle</td>
+    </tr>
+    <tr>
+      <td>Dysurie</td>
+    </tr>
+    <tr>
+      <td>Générique</td>
+    </tr>
+    <tr>
+      <td>Hématurie</td>
+    </tr>
+    <tr>
+      <td>Hernie / hydrocèle</td>
+    </tr>
+    <tr>
+      <td>Hydronéphrose</td>
+    </tr>
+    <tr>
+      <td>Hypospadias</td>
+    </tr>
+    <tr>
+      <td>Synéchies des petites lèvres</td>
+    </tr>
+    <tr>
+      <td>Phimosis du nouveau-né</td>
+    </tr>
+    <tr>
+      <td>Énurésie nocturne</td>
+    </tr>
+    <tr>
+      <td>Pénis</td>
+    </tr>
+    <tr>
+      <td>Consultation prénatale</td>
+    </tr>
+    <tr>
+      <td>Douleur / masse / tuméfaction scrotale</td>
+    </tr>
+    <tr>
+      <td>Malformation spinale</td>
+    </tr>
+    <tr>
+      <td>Calculs</td>
+    </tr>
+    <tr>
+      <td>Masse testiculaire / microlithiase</td>
+    </tr>
+    <tr>
+      <td>Testicule non descendu</td>
+    </tr>
+    <tr>
+      <td>Anomalie de l’ouraque</td>
+    </tr>
+    <tr>
+      <td>Infection urinaire</td>
+    </tr>
+    <tr>
+      <td>Varicocèle / spermatocèle</td>
+    </tr>
+    <tr>
+      <td>Reflux vésico-urétéral</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="création-de-données-discrètes">
+<a class="anchor" href="#cr%C3%A9ation-de-donn%C3%A9es-discr%C3%A8tes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Création de données discrètes</h3>
+
+<p>Un avantage considérable que présente le DME par rapport aux dossiers papier réside dans les données structurées, ou discrètes. On peut considérer les données discrètes comme des informations qui ont été décomposées en leurs éléments de base, étiquetées et stockées de manière à pouvoir être facilement consultées. Dans le DME, une grande partie des données importantes pour la documentation clinique a déjà été saisie de cette manière—dates, noms, signes vitaux, valeurs de laboratoire, diagnostics, etc. De telles données peuvent faciliter les soins directs aux patients et être exploitées pour des usages secondaires, notamment le suivi des résultats et la recherche clinique.</p>
+
+<p>Il est généralement simple d’intégrer des données discrètes dans les notes. Ce faisant, les médecins doivent veiller à éviter la surcharge des notes et à structurer leurs modèles pour se concentrer uniquement sur les données pertinentes. <strong>Les données discrètes au sein d’un DME sont hautement granulaires et, avec suffisamment de personnalisation, des éléments de données discrets peuvent être incorporés dans une note sans compromettre la lisibilité.</strong> Par exemple, plutôt que d’importer l’ensemble complet des tableaux de résultats de laboratoire récents, on peut modéliser une phrase pour n’inclure que la valeur de créatinine la plus récente et la date à laquelle elle a été prélevée.<a class="citation" href="#rosenbloom2011a"><span style="vertical-align: super">7</span></a></p>
+
+<h3 id="aide-à-la-décision-clinique">
+<a class="anchor" href="#aide-%C3%A0-la-d%C3%A9cision-clinique" aria-hidden="true"><span class="octicon octicon-link"></span></a>Aide à la décision clinique</h3>
+
+<p>L’aide à la décision clinique (<abbr title="aide à la décision clinique">CDS</abbr>) est définie comme un « processus visant à améliorer les décisions et les actions liées à la santé grâce à des connaissances cliniques pertinentes et organisées ainsi qu’à des informations sur les patients, afin d’améliorer les soins de santé et leur prestation. »<a class="citation" href="#osheroff-a"><span style="vertical-align: super">8</span></a> Les données du DME d’un patient peuvent être exploitées pour recommander une action spécifique ou mettre en évidence des informations importantes. Les alertes contextuelles (pop-up) sont une forme courante de <abbr title="aide à la décision clinique">CDS</abbr>. <a href="#table-4" class="table-link">Tableau 4</a> dresse la liste des types, outils et exemples courants de <abbr title="aide à la décision clinique">CDS</abbr> en urologie pédiatrique.</p>
+
+<p><strong id="table-4" class="table-number">Tableau 4</strong> Exemples d’aide à la décision clinique (<abbr title="aide à la décision clinique">CDS</abbr>) en urologie pédiatrique.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Catégorie</th>
+      <th>Outil</th>
+      <th>Avantage</th>
+      <th style="text-align: center">Exemple</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Saisie de données</td>
+      <td>Formulaire intelligent (saisie de données dynamique et guidée)</td>
+      <td>Invite dynamiquement à recueillir des données clés et discrètes</td>
+      <td style="text-align: center">Saisie de données d’urodynamique pédiatrique qui s’ajuste en fonction des procédures/conditions documentées</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Jeux d’ordonnances</td>
+      <td>Standardiser la saisie des ordonnances selon l’état du patient</td>
+      <td style="text-align: center">Jeu d’ordonnances de récupération améliorée après chirurgie (<abbr title="récupération améliorée après chirurgie">ERAS</abbr>) pédiatrique postopératoire</td>
+    </tr>
+    <tr>
+      <td>Revue des données</td>
+      <td>Tableau de bord infirmier ambulatoire d’urologie pédiatrique</td>
+      <td>Centralise les tâches assignées et fournit une évaluation globale des responsabilités</td>
+      <td style="text-align: center">Dresse la liste des appels postopératoires en attente, des tâches d’éducation du patient, de la revue du pool de messages de la boîte de réception et d’autres tâches de soins indirects (p. ex., suivi des stents urétéraux)</td>
+    </tr>
+    <tr>
+      <td>Évaluation et compréhension</td>
+      <td>Boutons d’information, liens intégrés vers des supports pédagogiques</td>
+      <td>Offre au clinicien une opportunité pédagogique immédiate</td>
+      <td style="text-align: center">Fournir un lien vers des recommandations de prophylaxie antibiotique chirurgicale spécifiques à l’urologie pédiatrique au sein d’un jeu d’ordonnances</td>
+    </tr>
+    <tr>
+      <td>Déclenché par une tâche de l’utilisateur</td>
+      <td>Alertes intégrées au flux de travail</td>
+      <td>Utile pour des notifications courantes</td>
+      <td style="text-align: center">Rappels pour la vaccination contre la grippe</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Alertes contextuelles, interruptives</td>
+      <td>Utile pour des messages importants où une action est fortement recommandée</td>
+      <td style="text-align: center">Suggestion de changer de médicament car celui sélectionné est en rupture de stock</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Notification automatique dans la boîte de réception</td>
+      <td>Alerte les professionnels de santé d’une action requise en attente</td>
+      <td style="text-align: center">Rappel de terminer la documentation d’un dossier ouvert</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Les “cinq bons” du <abbr title="aide à la décision clinique">CDS</abbr> sont importants à prendre en compte lors de la conception et du développement de nouveaux outils: 1) bonne information, 2), bonne personne, 3) bon format d’intervention, 4) bon canal, 5) bon moment/flux de travail (<a href="#table-5" class="table-link">Tableau 5</a>).<a class="citation" href="#campbell2013a"><span style="vertical-align: super">9</span></a> Ces concepts aident à cibler l’outil afin d’éviter d’interrompre les mauvais membres de l’équipe aux mauvais moments avec des interventions qui ne sont pas efficaces. Bien que, historiquement, les outils de <abbr title="aide à la décision clinique">CDS</abbr> n’aient pas toujours amélioré l’efficacité, au fil du temps, nous pensons que cela s’améliorera.<a class="citation" href="#bright2012a"><span style="vertical-align: super">10,11,12</span></a></p>
+
+<p><strong id="table-5" class="table-number">Tableau 5</strong> Les cinq droits du <abbr title="aide à la décision clinique">CDS</abbr>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Bon</th>
+      <th style="text-align: center">Explication</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Bonne information</td>
+      <td style="text-align: center">Les informations devraient être présentées à l’utilisateur et idéalement être fondées sur des preuves (p. ex., des recommandations), tout en évitant trop de détails</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Bonne personne</td>
+      <td style="text-align: center">Les soins de santé modernes reposent sur le travail en équipe, et les interventions doivent être adressées au bon membre de l’équipe capable d’agir</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Bon format d’intervention</td>
+      <td style="text-align: center">Un outil approprié figurant dans le tableau 2 devrait être sélectionné afin d’aider l’utilisateur</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Bon canal</td>
+      <td style="text-align: center">De plus en plus, il existe des interfaces <abbr title="dossier médical électronique">EMR</abbr> dans l’ensemble de l’environnement de soins de santé, une session de consultation sur ordinateur de bureau, un tableau de planification du bloc opératoire, des appareils portables, des listes de patients imprimées, etc. Les concepteurs de <abbr title="aide à la décision clinique">CDS</abbr> devraient sélectionner un canal optimal pour l’intervention.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Bon moment/flux de travail</td>
+      <td style="text-align: center">Les interventions devraient être ciblées et testées dans des scénarios réels afin de s’assurer qu’elles sont délivrées au bon moment et dans le bon flux de travail pour être efficaces.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="formation-en-informatique">
+<a class="anchor" href="#formation-en-informatique" aria-hidden="true"><span class="octicon octicon-link"></span></a>Formation en informatique</h2>
+
+<p>L’informatique clinique est désormais enseignée via des programmes de formation formels accrédités par la <abbr title="formation médicale de troisième cycle">GME</abbr>. La certification du Board est disponible pour ceux qui souhaitent officialiser leur formation.<a class="citation" href="#lehmann2018a"><span style="vertical-align: super">13</span></a> Il existe actuellement deux voies menant à la certification du Board (qui est accordée après réussite d’un examen écrit) par le Conseil américain de médecine préventive : 1) filière de formation en informatique clinique, qui permet de se présenter au Board après avoir achevé une formation accréditée par la <abbr title="formation médicale de troisième cycle">GME</abbr> (généralement d’un an), ou 2) filière professionnelle qui autorise les personnes occupant des fonctions officielles au sein de votre organisation avec au moins 0,25 équivalent temps plein dédié. Cette dernière est disponible jusqu’en 2023 (mais cette clause de droits acquis a été prolongée à plusieurs reprises, reconnaissant que tous les informaticiens cliniques n’ont pas reçu de formation formelle, mais ont plutôt bénéficié d’une formation en cours d’emploi). Davantage d’informations sur les exigences de certification du Board en informatique clinique sont disponibles auprès du <a href="https://www.theabpm.org/become-certified/subspecialties/clinical-informatics/">Conseil américain de médecine préventive</a>.</p>
+
+<h2 id="gouvernance-du-dme">
+<a class="anchor" href="#gouvernance-du-dme" aria-hidden="true"><span class="octicon octicon-link"></span></a>Gouvernance du DME</h2>
+
+<p>Étant donné la complexité du DME, en particulier ceux intégrant des fonctionnalités ambulatoires, de laboratoire, de pharmacie, d’hospitalisation, des urgences et du bloc opératoire, les modifications du DME ne peuvent pas être effectuées par une petite équipe sans contribution de l’organisation. De nombreux hôpitaux et systèmes disposant de DME étendus ont mis en place des comités de gouvernance qui discutent et décident des changements majeurs susceptibles d’avoir un impact sur un large éventail d’utilisateurs. Siéger à ces comités peut offrir un aperçu précieux des nouvelles fonctionnalités d’un DME, vous aider à éviter un changement susceptible d’affecter négativement votre équipe, ou offrir un lieu pour discuter d’une fonctionnalité ou d’un paramétrage qui pourrait bénéficier à votre groupe ou à votre organisation.</p>
+
+<h2 id="direction-de-linformatique-et-service-dassistance">
+<a class="anchor" href="#direction-de-linformatique-et-service-dassistance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Direction de l’informatique et service d’assistance</h2>
+
+<p>De nombreux médecins ont exprimé leur frustration de ne pas savoir par où commencer lorsqu’il y a des problèmes ou une frustration face à la situation actuelle. Connaître vos responsables <abbr title="technologies de l’information">IT</abbr> et d’informatique médicale est un bon point de départ. Nombre d’organisations (grandes et petites) ont une personne désignée pour diriger l’équipe informatique (peut-être appelée Chief Information Officer ou <abbr title="directeur des systèmes d’information">CIO</abbr>). Il existe probablement aussi une personne du milieu clinique désignée pour faire le lien avec le <abbr title="directeur des systèmes d’information">CIO</abbr> afin de représenter les cliniciens. Dans de nombreuses organisations, il s’agit d’un Chief Medical Informatics Officer ou <abbr title="directeur médical des systèmes d’information">CMIO</abbr>. Savoir qui sont ces personnes dans votre organisation, c’est déjà la moitié du combat. Leur demander d’inclure des personnes désignées pour représenter vos intérêts est également essentiel. Ces représentants désignés devraient s’intéresser à l’informatique (même sans formation formelle) et être habilités à prendre des décisions au nom de votre groupe, tout en servant aussi de personnes capables de faciliter le changement, qui s’est imposé comme une nouvelle normalité constante à l’ère du dossier médical électronique.</p>
+
+<p>Au-delà d’impliquer les principaux responsables de votre organisation de soins de santé, la moitié des problèmes liés au DME s’explique par une variante du concept économique de « tragédie des communs ». Il s’agit d’une situation où une ressource partagée (en l’occurrence, le DME) est laissée se détériorer parce que l’on privilégie l’intérêt personnel (à savoir : le temps précieux des cliniciens et l’hypothèse que d’autres s’occupent d’un problème) plutôt que l’attention portée à cette ressource et son amélioration. Plus directement, lorsque les utilisateurs rencontrent des résultats inattendus dans le DME (nouvelle erreur inconnue ou fonctionnalité défaillante), nous observons que la plupart des utilisateurs contournent le problème plutôt que de le signaler au service d’assistance. Comme le personnel informatique n’est pas clinicien, nombre de ces problèmes dans le DME peuvent passer inaperçus pendant des jours ou davantage, faute d’être signalés au service d’assistance. <strong>Ne supposez pas que d’autres ont signalé le problème.</strong> Pour pallier le temps nécessaire pour appeler le service d’assistance, déléguez à un membre du personnel (assistant médical, par exemple) la tâche de prévenir le service d’assistance, en lui fournissant suffisamment d’informations pour exposer le problème.</p>
+
+<h2 id="conclusion">
+<a class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h2>
+
+<p>L’informatique clinique est un domaine d’exercice de plus en plus important pour les urologues. Le fait d’avoir, au sein de votre équipe ou de votre groupe, un membre capable de représenter vos intérêts et de suivre une formation complémentaire pour devenir expert dans ce domaine est susceptible de porter ses fruits en termes d’efficacité et de productivité, et de minimiser les frictions entre votre équipe et le dossier médical électronique.</p>
+
+<h2 class="key-points-head" id="points-clés">
+<a class="anchor" href="#points-cl%C3%A9s" aria-hidden="true"><span class="octicon octicon-link"></span></a>Points clés</h2>
+
+<ul class="key-points-list">
+  <li>L’informatique clinique est un domaine nouveau qui exploite et comble l’écart entre les soins cliniques et les systèmes de technologies de l’information (avec un accent particulier sur l’<abbr title="dossier médical électronique">EMR</abbr>)</li>
+  <li>Les <abbr title="dossier médical électronique">EMR</abbr> intègrent de plus en plus de fonctionnalités pour faciliter l’accès à la radiologie, à la pharmacie, à l’aide à la décision clinique, au laboratoire, ainsi qu’à la documentation couvrant les soins ambulatoires, hospitaliers, périopératoires et aux urgences (<abbr title="Société des systèmes d’information et de gestion des soins de santé">HIMSS</abbr> niveau 7)</li>
+  <li>La complexité supplémentaire a obligé les organisations à investir dans des équipes d’informatique clinique afin d’assurer une utilisation plus efficace de l’<abbr title="dossier médical électronique">EMR</abbr> qui reflète les flux de travail et les pratiques existants.</li>
+  <li>Connaître vos responsables des technologies de l’information (<abbr title="directeur des systèmes d’information">CIO</abbr>) et de l’informatique (<abbr title="directeur médical des systèmes d’information">CMIO</abbr>) est essentiel pour garantir que vos intérêts sont représentés.</li>
+  <li>Appelez le service d’assistance lorsque vous rencontrez quelque chose d’inattendu. Ne tombez pas dans le piège de la tragédie des biens communs en pensant que quelqu’un d’autre a signalé le problème.</li>
+</ul>
+
+<h2 id="références">
+<a class="anchor" href="#r%C3%A9f%C3%A9rences" aria-hidden="true"><span class="octicon octicon-link"></span></a>Références</h2>
+
+<ol class="bibliography">
+<li>
+<span id="anon-a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Anon</b></span>. <span style="font-variant: normal">Electronic Medical Record Adoption Model (EMRAM). HIMSS</span>. .</span></span> <a href="https://www.himss.org/what-we-do-solutions/digital-health-transformation/maturity-models/electronic-medical-record-adoption-model-emram," title="" data-link="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers un site Web externe"><i class="fas fa-up-right-from-square"></i></a>
+</li>
+<li>
+<span id="rule2021a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Rule A, Bedrick S, Chiang MF, Hribar MR</b></span>. <span style="font-variant: normal">Length and Redundancy of Outpatient Progress Notes Across a Decade at an Academic Medical Center</span>. <span style="text-decoration: underline"><span style="text-decoration: none"><i>JAMA Netw Open</i></span> <span style="text-decoration: none">2021; <b>4</b> (7)</span>: <span style="text-decoration: none">e2115334</span>. <span style="text-decoration: underline">DOI: 10.1001/jamanetworkopen.2021.15334</span></span>.</span></span>   <a href="https://pubmed.ncbi.nlm.nih.gov/34279650/" title="" data-pubmed="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers PubMed"><i class="ai2 ai-pubmed"></i></a> <a href="https://doi.org/10.1001/jamanetworkopen.2021.15334" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="maguire2020a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Dahlgren A</b></span>. <span style="font-variant: normal">Cut and paste</span>. <span style="text-decoration: underline"><span style="text-decoration: none"><i>Travelling Images</i></span> <span style="text-decoration: none">2020</span>: <span style="text-decoration: none">25–65</span>. <span style="text-decoration: underline">DOI: 10.7228/manchester/9781526126641.003.0002</span></span>.</span></span>   <a href="https://doi.org/10.7228/manchester/9781526126641.003.0002" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="kuhn2015a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Kuhn T, Basch P, Barr M, Yackel T</b></span>. <span style="font-variant: normal">Clinical Documentation in the 21st Century: Executive Summary of a Policy Position Paper From the American College of Physicians</span>. <span style="text-decoration: underline"><span style="text-decoration: none"><i>Ann Intern Med</i></span> <span style="text-decoration: none">2015; <b>162</b> (4)</span>: <span style="text-decoration: none">301–303</span>. <span style="text-decoration: underline">DOI: 10.7326/m14-2128</span></span>.</span></span>   <a href="https://pubmed.ncbi.nlm.nih.gov/25581028/" title="" data-pubmed="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers PubMed"><i class="ai2 ai-pubmed"></i></a> <a href="https://doi.org/10.7326/m14-2128" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="kahn2018a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Kahn D, Stewart E, Duncan M, Lee E, Simon W, Lee C, <i>et al.</i></b></span>. <span style="font-variant: normal">A Prescription for Note Bloat: An Effective Progress Note Template</span>. <span style="text-decoration: underline"><span style="text-decoration: none"><i>J Hosp Med</i></span> <span style="text-decoration: none">2018; <b>13</b> (6)</span>: <span style="text-decoration: none">378–382</span>. <span style="text-decoration: underline">DOI: 10.12788/jhm.2898</span></span>.</span></span>   <a href="https://pubmed.ncbi.nlm.nih.gov/29350222/" title="" data-pubmed="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers PubMed"><i class="ai2 ai-pubmed"></i></a> <a href="https://doi.org/10.12788/jhm.2898" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="downing2018a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Downing NL, Bates DW, Longhurst CA</b></span>. <span style="font-variant: normal">Physician Burnout in the Electronic Health Record Era: Are We Ignoring the Real Cause?</span> <span style="text-decoration: underline"><span style="text-decoration: none"><i>Ann Intern Med</i></span> <span style="text-decoration: none">2018; <b>169</b> (1)</span>: <span style="text-decoration: none">50</span>. <span style="text-decoration: underline">DOI: 10.7326/m18-0139</span></span>.</span></span>   <a href="https://pubmed.ncbi.nlm.nih.gov/29801050/" title="" data-pubmed="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers PubMed"><i class="ai2 ai-pubmed"></i></a> <a href="https://doi.org/10.7326/m18-0139" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="rosenbloom2011a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Rosenbloom ST, Denny JC, Xu H, Lorenzi N, Stead WW, Johnson KB</b></span>. <span style="font-variant: normal">Data from clinical notes: a perspective on the tension between structure and flexible documentation</span>. <span style="text-decoration: underline"><span style="text-decoration: none"><i>J Am Med Inform Assoc</i></span> <span style="text-decoration: none">2011; <b>18</b> (2)</span>: <span style="text-decoration: none">181–186</span>. <span style="text-decoration: underline">DOI: 10.1136/jamia.2010.007237</span></span>.</span></span>   <a href="https://pubmed.ncbi.nlm.nih.gov/21233086/" title="" data-pubmed="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers PubMed"><i class="ai2 ai-pubmed"></i></a> <a href="https://doi.org/10.1136/jamia.2010.007237" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="osheroff-a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Osheroff JA, JA T, Levick D</b></span>. <i>Improving Outcomes with Clinical Decision Support: An Implementer’s Guide</i>. <span style="text-decoration: underline"><span style="text-decoration: none">2nd ed.</span>, <span style="text-decoration: none">Chicago, IL: Himss; </span>, <span style="text-decoration: underline">DOI: 10.4324/9780367806125</span></span>.</span></span>  <a href="https://doi.org/10.4324/9780367806125" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="campbell2013a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Campbell RJ</b></span>. <span style="font-variant: normal">Use of quick sequential organ failure assessment score-based sepsis clinical decision support system may be helpful to predict sepsis development</span>. <span style="text-decoration: underline"><span style="text-decoration: none"><i>Signa Vitae</i></span> <span style="text-decoration: none">2013; <b>84</b></span>: <span style="text-decoration: none">42–47</span>. <span style="text-decoration: underline">DOI: 10.22514/sv.2021.082</span></span>.</span></span>   <a href="https://doi.org/10.22514/sv.2021.082" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="bright2012a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Bright TJ, Wong A, Dhurjati R, Bristow E, Bastian L, Coeytaux RR, <i>et al.</i></b></span>. <span style="font-variant: normal">Effect of Clinical Decision-Support Systems: A Systematic Review</span>. <span style="text-decoration: underline"><span style="text-decoration: none"><i>Ann Intern Med</i></span> <span style="text-decoration: none">2012; <b>157</b> (1)</span>: <span style="text-decoration: none">29–43</span>. <span style="text-decoration: underline">DOI: 10.7326/0003-4819-157-1-201207030-00450</span></span>.</span></span>   <a href="https://pubmed.ncbi.nlm.nih.gov/22751758/" title="" data-pubmed="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers PubMed"><i class="ai2 ai-pubmed"></i></a> <a href="https://doi.org/10.7326/0003-4819-157-1-201207030-00450" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="patterson2018a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Patterson BW, Pulia MS, Ravi S, Hoonakker PLT, Schoofs Hundt A, Wiegmann D, <i>et al.</i></b></span>. <span style="font-variant: normal">Scope and Influence of Electronic Health Record–Integrated Clinical Decision Support in the Emergency Department: A Systematic Review</span>. <span style="text-decoration: underline"><span style="text-decoration: none"><i>Ann Emerg Med</i></span> <span style="text-decoration: none">2018; <b>74</b> (2)</span>: <span style="text-decoration: none">285–296</span>. <span style="text-decoration: underline">DOI: 10.1016/j.annemergmed.2018.10.034</span></span>.</span></span>   <a href="https://pubmed.ncbi.nlm.nih.gov/30611639/" title="" data-pubmed="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers PubMed"><i class="ai2 ai-pubmed"></i></a> <a href="https://doi.org/10.1016/j.annemergmed.2018.10.034" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="murphy2014a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Nicholas C</b></span>. <span style="font-variant: normal">Clinical Decision Support for Diabetes in Scotland: evaluation of user acceptance, clinical processes and outcomes</span>. <span style="text-decoration: underline"><span style="text-decoration: none"><i>Yale J Biology Medicine</i></span> <span style="text-decoration: none">2014; <b>87</b></span>: <span style="text-decoration: none">187–197</span>. <span style="text-decoration: underline">DOI: 10.26226/morressier.59d51843d462b80296ca380a</span></span>.</span></span>   <a href="https://doi.org/10.26226/morressier.59d51843d462b80296ca380a" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+<li>
+<span id="lehmann2018a"><span style="font-weight: normal; text-decoration: none"><span style="font-weight: normal"><b>Lehmann C, Gundlapalli A, Williamson J, Fridsma D, Hersh W, Krousel-Wood M, <i>et al.</i></b></span>. <span style="font-variant: normal">Five Years of Clinical Informatics Board Certification for Physicians in the United States of America</span>. <span style="text-decoration: underline"><span style="text-decoration: none"><i>Yearb Med Inform</i></span> <span style="text-decoration: none">2018; <b>27</b> (01)</span>: <span style="text-decoration: none">237–242</span>. <span style="text-decoration: underline">DOI: 10.1055/s-0038-1641198</span></span>.</span></span>   <a href="https://pubmed.ncbi.nlm.nih.gov/29681038/" title="" data-pubmed="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers PubMed"><i class="ai2 ai-pubmed"></i></a> <a href="https://doi.org/10.1055/s-0038-1641198" title="" data-doi="1" data-toggle="tooltip" data-placement="top" data-original-title="Lien vers le DOI"><i class="ai2 ai-doi"></i></a>
+</li>
+</ol>
+
+
+            
+            <!--Last repository commit: 8741ea72d-->
+            <p class="last-modified"><i class="fas fa-clock pr-2"></i><em>Dernière mise à jour: 2025-09-22 07:59</em></p>
+          </div> <!-- /col -->
+        </div> <!-- /row -->
+      </div> <!-- /container -->
+    </div> <!-- /main -->
+    
+    <footer id="footer">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-4 d-flex justify-content-center justify-content-md-start mb-4 mb-lg-0">
+            <a href="https://pediatricurologybook.com/fr/" class="logo pr-0 pr-lg-3 pl-3 pl-md-0">
+                <img alt="Pediatric Urology Book" class="img-responsive" src="https://pediatricurologybook.com/assets/site-img/pediatricurologybook-white.svg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright footer-copyright-style-2">
+        <div class="container py-2">
+          <div class="row py-4">
+            <div class="col-lg-4 d-flex align-items-end justify-content-center justify-content-md-start mb-2 mb-lg-0">
+              <p>© 2025 par <a href="https://pediatricurologybook.com/fr/">Pediatric Urology Book</a>. Tous droits réservés.</p>
+            </div>
+            <div class="col-lg-8 d-flex flex-column mb-4 mb-lg-0">
+              <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-center justify-content-md-end m-0 p-0"><ul class="footer-social-icons social-icons social-icons-clean social-icons-icon-light"><li class="social-icons-github"><a href="https://www.github.com/kylerove/pediatricurologybook" target="_blank" title="GitHub"><i class="fab fa-github-alt"></i></a></li><li class="social-icons-twitter"><a href="https://www.twitter.com/PedUrologyBook" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li><li class="social-icons-mastodon"><a rel="me" href="https://med-mastodon.com/@pediatricurologybook" target="_blank" title="Mastodon"><i class="fab fa-mastodon"></i></a></li><li class="social-icons-youtube"><a href="https://www.youtube.com/@pediatricurologybook" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li></ul></div>
+              </div>
+              <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-center justify-content-md-end m-0 p-0">
+                  <nav id="sub-menu">
+                    <ul>
+                      <li><i class="fas fa-map-marker"></i> <a href="https://pediatricurologybook.com/fr/site-map/">Plan du site</a></li><li><i class="fas fa-envelope"></i><a href="mailto:editors%40pediatricurologybook.com" class="opacity-7 pl-1">editors@pediatricurologybook.com</a></li></ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</div>
+    
+    <!-- Search -->
+    <script src="https://pediatricurologybook.com/assets/js/search.min.js"></script>
+    
+    <!-- Vendor -->
+    <script src="https://pediatricurologybook.com/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="https://pediatricurologybook.com/assets/vendor/jquery.appear/jquery.appear.min.js"></script>
+    <script src="https://pediatricurologybook.com/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="https://pediatricurologybook.com/assets/vendor/jquery.validation/jquery.validate.min.js"></script>
+    <script src="https://pediatricurologybook.com/assets/vendor/jquery.stupidtable/stupidtable.min.js"></script>
+    <script src="https://pediatricurologybook.com/assets/vendor/popper/umd/popper.min.js"></script>
+    <script src="https://pediatricurologybook.com/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    
+    <!-- Theme Base, Components and Settings -->
+    <script src="https://pediatricurologybook.com/assets/js/theme.js"></script>
+    
+    <!-- Current Page --><script src="https://pediatricurologybook.com/assets/js/pages/chapter.js"></script>
+    
+    
+    <!-- Theme Custom -->
+    <script src="https://pediatricurologybook.com/assets/js/custom.js"></script>
+    
+    <!-- Theme Initialization Files -->
+    <script src="https://pediatricurologybook.com/assets/js/theme.init.js"></script>
+    
+    <!-- Scroll to top -->
+    <a class="scroll-to-top hidden-mobile" href="#"><i class="fas fa-chevron-up"></i></a>
+    
+  </body>
+</html>
